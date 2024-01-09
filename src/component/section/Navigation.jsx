@@ -107,14 +107,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li
-                  className="link"
-                  onMouseOver={() => {
-                    document.getElementById("IQAC").style.display = "grid";
-                    setActiveLink("IQAC");
-                  }}
-                  onMouseOut={() => {
-                    document.getElementById("IQAC").style.display = "none";
-                  }}
+                  className="link"                  
                 >
                   <a
                     id="IQAC-link"
