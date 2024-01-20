@@ -8,12 +8,44 @@
 }
 
 @media (max-width: 1400px) {
-  .support-btn {
+  /* .support-btn {
     background: none;
     line-height: normal;
     padding: 0;
     height: auto;
     font-weight: normal;
     font-size: unset;
+  } */
+  .support-btn {
+    background: #3db166;
+    line-height: 1;
+    padding: 10px;
+    height: 70%;
+    font-weight: 500;
+    font-size: 16px;
+    position: absolute;
+    top:8px;
+    width: 180px;
+  }
+}
+@media (max-width: 1345px) {
+  .support-btn {
+    background: none;
+    line-height: normal;
+    padding-top: 5px;
+    height: auto;
+    font-weight: normal;
+    font-size: unset;
+  }
+}
+@media (max-width: 1273px) {
+  .support-btn {
+    background: none;
+    line-height: normal;
+    padding-top: 0px;
+    height: auto;
+    font-weight: normal;
+    font-size: unset;
+    position: relative;
   }
 }

@@ -110,7 +110,7 @@ const About = () => {
       <br />
       <br />
       {/*  */}
-      <div className="student-feedbak-section padding-tb shape-img">
+      <div className="student-feedbak-section padding-tb  glance1">
         <div className="container">
           <div className="section-header text-center">
             <span className="subtitle">&nbsp;</span>
