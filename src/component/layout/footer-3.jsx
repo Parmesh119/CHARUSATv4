@@ -254,7 +254,7 @@ const FooterThree = () => {
                           <h4 style={{ color: "#fff" }}>{googleMapTitle}</h4>
                         </div>
                         <div
-                          className="content"
+                          className="content content1"
                           style={{ width: "80px !important;" }}
                         >
                           {/* <ul className="lab-ul"> */}
