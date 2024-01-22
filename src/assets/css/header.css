@@ -18,13 +18,13 @@
   } */
   .support-btn {
     background: #3db166;
-    line-height: 1;
+    line-height: 2;
     padding: 10px;
-    height: 70%;
+    height: 100%;
     font-weight: 500;
     font-size: 16px;
     position: absolute;
-    top:8px;
+    top:0px;
     width: 180px;
   }
 }

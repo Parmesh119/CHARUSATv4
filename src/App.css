@@ -1,6 +1,9 @@
 body{
     overflow-x: hidden;
 }
+html{
+  overflow-x: hidden;
+}
 .lab-ul li:hover{
     box-shadow: rgb(0, 102, 179) 0px 1px 4px;
     border-radius: 50px;
@@ -126,8 +129,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 200px;
+  width: 202px;
+  
 }
 
 /* support charusat */
@@ -165,3 +168,4 @@ body{
   width: 100%;
   background-size: cover;
 }
+
