@@ -169,3 +169,6 @@ html{
   background-size: cover;
 }
 
+.post-content{
+  overflow-x: auto;
+}
