@@ -8,13 +8,18 @@
 }
 
 @media (max-width: 1400px) {
+<<<<<<< HEAD
   /* .support-btn {
+=======
+  .support-btn {
+>>>>>>> main
     background: none;
     line-height: normal;
     padding: 0;
     height: auto;
     font-weight: normal;
     font-size: unset;
+<<<<<<< HEAD
   } */
   .support-btn {
     background: #3db166;
@@ -47,5 +52,7 @@
     font-weight: normal;
     font-size: unset;
     position: relative;
+=======
+>>>>>>> main
   }
 }

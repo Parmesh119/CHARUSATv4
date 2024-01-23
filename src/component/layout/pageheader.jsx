@@ -1,6 +1,10 @@
 
 import { Link } from "react-router-dom";
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 const PageHeader = ({title, curPage}) => {
     return (
         <div className="pageheader-section">

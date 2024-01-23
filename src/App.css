@@ -1,9 +1,15 @@
 body{
+<<<<<<< HEAD
     overflow-x: hidden;
 }
 html{
   overflow-x: hidden;
 }
+=======
+
+    overflow-x: hidden;
+}
+>>>>>>> main
 .lab-ul li:hover{
     box-shadow: rgb(0, 102, 179) 0px 1px 4px;
     border-radius: 50px;
@@ -121,6 +127,7 @@ html{
     padding-bottom: 50px;
   }
 
+<<<<<<< HEAD
 
 /* footer */
 
@@ -172,3 +179,14 @@ html{
 .post-content{
   overflow-x: auto;
 }
+=======
+.post-content{
+  overflow-x: auto;
+}
+
+/* journey of charusat */
+
+
+
+
+>>>>>>> main

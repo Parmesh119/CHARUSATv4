@@ -31,7 +31,10 @@ import "../../assets/css/slider-animations.css";
 
 const content = [
   {
+<<<<<<< HEAD
     id:"1",
+=======
+>>>>>>> main
     title: "CHARUSAT",
     description: "Accreditated with 'A+' Grade by NAAC",
     button: "Apply Now",
@@ -48,7 +51,10 @@ const content = [
   //   userProfile: "https://i.imgur.com/JSW6mEk.png",
   // },
   {
+<<<<<<< HEAD
     id:"2",
+=======
+>>>>>>> main
     title: "Laboratories",
     description:
       "Highly equipped and advanced labs for practical learning and in-depth research",
@@ -58,7 +64,10 @@ const content = [
     userProfile: "https://i.imgur.com/0Clfnu7.png",
   },
   {
+<<<<<<< HEAD
     id:"3",
+=======
+>>>>>>> main
     title: "Hostels",
     description:
       "Our hostels give out the vibes of comfort and contentment, just like home",
@@ -68,8 +77,12 @@ const content = [
     userProfile: "https://i.imgur.com/4KeKvtH.png",
   },
   {
+<<<<<<< HEAD
     id:"4",
     title: "Wi Fi Campus",
+=======
+    title: "Wifi Campus",
+>>>>>>> main
     description:
       "Connect with the world on CHARUSAT that is entirely wi-fi enabled",
     button: "Apply Now",
@@ -78,7 +91,10 @@ const content = [
     userProfile: "https://i.imgur.com/4KeKvtH.png",
   },
   {
+<<<<<<< HEAD
     id:"5",
+=======
+>>>>>>> main
     title: "Canteen",
     description:
       "Wholesome meals served as a part of indian and world cuisines replete with all 5 flavours",
@@ -88,7 +104,10 @@ const content = [
     userProfile: "https://i.imgur.com/4KeKvtH.png",
   },
   {
+<<<<<<< HEAD
     id:"6",
+=======
+>>>>>>> main
     title: "Infrastucture",
     description:
       "Future Ready Academics infrastructure with ergonomically designed classrooms, ICT and climatization",
@@ -98,7 +117,10 @@ const content = [
     userProfile: "https://i.imgur.com/4KeKvtH.png",
   },
   {
+<<<<<<< HEAD
     id:"7",
+=======
+>>>>>>> main
     title: "ATHLETICS & FITNESS",
     description:
       "Physical benefits of recreational sports on the sports fields and in gymnasium facilitates. Indoor sports facility for mental endurance and relaxation",
@@ -108,7 +130,10 @@ const content = [
     userProfile: "https://i.imgur.com/4KeKvtH.png",
   },
   {
+<<<<<<< HEAD
     id:"8",
+=======
+>>>>>>> main
     title: "Green Campus",
     description: "Creating a Sustainable and Eco-Friendly Campus Environment",
     button: "Apply Now",
@@ -128,7 +153,10 @@ const desc = "Current Happening";
 const btnText = "View Lincon’s Courses";
 
 const BannerFive = () => {
+<<<<<<< HEAD
   
+=======
+>>>>>>> main
   return (
     <section className="d-block clearfix">
       {/* <Slider className="slider-wrapper" autoplay="4000">
@@ -214,6 +242,10 @@ const BannerFive = () => {
       </Swiper> */}
       <Slider 
       autoplay = "4000"
+<<<<<<< HEAD
+=======
+      
+>>>>>>> main
       className="slider-wrapper"
       >
       {content.map((item, index) => (
@@ -230,12 +262,21 @@ const BannerFive = () => {
                 }}>
             <h1> {item.title}</h1>
           </div>
+<<<<<<< HEAD
             <p className="subTitle-slider text_1"  style={{color:"black"}}>{item.description}</p>
+=======
+            
+            <p className="subTitle-slider text_1"  style={{color:"black"}}>{item.description}</p>
+            
+>>>>>>> main
           </div>
         </div>
       ))}
     </Slider>
+<<<<<<< HEAD
     
+=======
+>>>>>>> main
       <br />
       {/* <p className="text-center mt-1">
         <span

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Component, Fragment,useState } from "react";
+=======
+import { Component, Fragment } from "react";
+>>>>>>> main
 import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
 import Contact from "../component/section/contact";
@@ -11,7 +15,11 @@ const CourseList = [
     Institute: "Indukaka Ipcowala Institute of Management(I2IM)",
     CourseDuration: "03 Years",
     Intake: "180",
+<<<<<<< HEAD
     Fees: "₹ 50,000/-",
+=======
+    Fees: "Rs 50,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State Board Minimum 50% required in Commerce Stream / Art Stream (with English as a subject)Student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -29,7 +37,11 @@ const CourseList = [
     Institute: "Indukaka Ipcowala Institute of Management(I2IM)",
     CourseDuration: "02 Years",
     Intake: "120",
+<<<<<<< HEAD
     Fees: "₹ 1,29,000/-",
+=======
+    Fees: "Rs 1,29,000/-",
+>>>>>>> main
     Eligibility:
       "Any Graduate with 50% marks in BBA, B.Tech, B.Com, B.Pharm, BE,Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -48,7 +60,11 @@ const CourseList = [
       "Smt.Chandaben Mohanbhai Patel Institute of Computer Application(CMPICA)",
     CourseDuration: "03 Years",
     Intake: "180",
+<<<<<<< HEAD
     Fees: "₹ 40,000/-",
+=======
+    Fees: "Rs 40,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State Board/Commerce Stream with minimum 50% required and Science Stream minimum 45% required, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -67,7 +83,11 @@ const CourseList = [
       "Smt.Chandaben Mohanbhai Patel Institute of Computer Application(CMPICA)",
     CourseDuration: "02 Years",
     Intake: "120",
+<<<<<<< HEAD
     Fees: "₹ 1,11,000/-",
+=======
+    Fees: "Rs 1,11,000/-",
+>>>>>>> main
     Eligibility:
       "Any Graduate with 50% marks in BCA, B.Sc (IT), B.Tech Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -85,7 +105,11 @@ const CourseList = [
     Institute: "Ramanbhai Patel College of Pharmacy",
     CourseDuration: "04 Years",
     Intake: "100",
+<<<<<<< HEAD
     Fees: "₹ 1,30,000/-",
+=======
+    Fees: "Rs 1,30,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per PCI), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -103,7 +127,11 @@ const CourseList = [
     Institute: "Ramanbhai Patel College of Pharmacy",
     CourseDuration: "02 Years",
     Intake: "15",
+<<<<<<< HEAD
     Fees: "₹ 1,89,000/-",
+=======
+    Fees: "Rs 1,89,000/-",
+>>>>>>> main
     Eligibility:
       "B.Pharm from PCI approved institute with minimum 50% Should have applied for GPAT/Non GPAT entrance exam Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -121,7 +149,11 @@ const CourseList = [
     Institute: "Ramanbhai Patel College of Pharmacy",
     CourseDuration: "02 Years",
     Intake: "15",
+<<<<<<< HEAD
     Fees: "₹ 1,89,000/-",
+=======
+    Fees: "Rs 1,89,000/-",
+>>>>>>> main
     Eligibility:
       "B.Pharm from PCI approved institute with minimum 50% Should have applied for GPAT/Non GPAT entrance exam Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -139,7 +171,11 @@ const CourseList = [
     Institute: "Ramanbhai Patel College of Pharmacy",
     CourseDuration: "02 Years",
     Intake: "9",
+<<<<<<< HEAD
     Fees: "₹ 1,89,000/-",
+=======
+    Fees: "Rs 1,89,000/-",
+>>>>>>> main
     Eligibility:
       "B.Pharm from PCI approved institute with minimum 50% Should have applied for GPAT/Non GPAT entrance exam Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -157,7 +193,11 @@ const CourseList = [
     Institute: "Ramanbhai Patel College of Pharmacy",
     CourseDuration: "02 Years",
     Intake: "3",
+<<<<<<< HEAD
     Fees: "₹ 1,89,000/-",
+=======
+    Fees: "Rs 1,89,000/-",
+>>>>>>> main
     Eligibility:
       "B.Pharm from PCI approved institute with minimum 50% Should have applied for GPAT/Non GPAT entrance exam Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -175,7 +215,11 @@ const CourseList = [
     Institute: "Ramanbhai Patel College of Pharmacy",
     CourseDuration: "02 Years",
     Intake: "15",
+<<<<<<< HEAD
     Fees: "₹ 1,89,000/-",
+=======
+    Fees: "Rs 1,89,000/-",
+>>>>>>> main
     Eligibility:
       "B.Pharm from PCI approved institute with minimum 50% Should have applied for GPAT/Non GPAT entrance exam Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -193,7 +237,11 @@ const CourseList = [
     Institute: "Ashok and Rita Patel Institute of Physiotherapy",
     CourseDuration: "4.5 Years",
     Intake: "100",
+<<<<<<< HEAD
     Fees: "₹ 1,65,000/-",
+=======
+    Fees: "Rs 1,65,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board Minimum 35% in PCB subjects Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -211,7 +259,11 @@ const CourseList = [
     Institute: "Ashok and Rita Patel Institute of Physiotherapy",
     CourseDuration: "02 Years",
     Intake: "06",
+<<<<<<< HEAD
     Fees: "₹ 2,00,000/-",
+=======
+    Fees: "Rs 2,00,000/-",
+>>>>>>> main
     Eligibility:
       "A degree in BPT minimum 50 % or equivalent grade pointand compulsory rotatory internship of 6 months with, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -229,7 +281,11 @@ const CourseList = [
     Institute: "Ashok and Rita Patel Institute of Physiotherapy",
     CourseDuration: "02 Years",
     Intake: "06",
+<<<<<<< HEAD
     Fees: "₹ 2,00,000/-",
+=======
+    Fees: "Rs 2,00,000/-",
+>>>>>>> main
     Eligibility:
       "A degree in BPT minimum 50 % or equivalent grade pointand compulsory rotatory internship of 6 months with, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -247,7 +303,11 @@ const CourseList = [
     Institute: "Ashok and Rita Patel Institute of Physiotherapy",
     CourseDuration: "02 Years",
     Intake: "03",
+<<<<<<< HEAD
     Fees: "₹ 2,00,000/-",
+=======
+    Fees: "Rs 2,00,000/-",
+>>>>>>> main
     Eligibility:
       "A degree in BPT minimum 50 % or equivalent grade pointand compulsory rotatory internship of 6 months with, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -265,7 +325,11 @@ const CourseList = [
     Institute: "Ashok and Rita Patel Institute of Physiotherapy",
     CourseDuration: "02 Years",
     Intake: "03",
+<<<<<<< HEAD
     Fees: "₹ 2,00,000/-",
+=======
+    Fees: "Rs 2,00,000/-",
+>>>>>>> main
     Eligibility:
       "A degree in BPT minimum 50 % or equivalent grade pointand compulsory rotatory internship of 6 months with, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -283,7 +347,11 @@ const CourseList = [
     Institute: "Ashok and Rita Patel Institute of Physiotherapy",
     CourseDuration: "02 Years",
     Intake: "03",
+<<<<<<< HEAD
     Fees: "₹ 2,00,000/-",
+=======
+    Fees: "Rs 2,00,000/-",
+>>>>>>> main
     Eligibility:
       "A degree in BPT minimum 50 % or equivalent grade pointand compulsory rotatory internship of 6 months with, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -301,7 +369,11 @@ const CourseList = [
     Institute: "P D Patel Institute of Applied Science (PDPIAS)",
     CourseDuration: "03 Years",
     Intake: "30",
+<<<<<<< HEAD
     Fees: "₹ 49,000/-",
+=======
+    Fees: "Rs 49,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board Minimum 55% in PCM/B subject, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -320,7 +392,11 @@ const CourseList = [
     Institute: "P D Patel Institute of Applied Science (PDPIAS)",
     CourseDuration: "03 Years",
     Intake: "120",
+<<<<<<< HEAD
     Fees: "₹ 70,000/-",
+=======
+    Fees: "Rs 70,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board Minimum 55% in PCM/B subject, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -338,7 +414,11 @@ const CourseList = [
     Institute: "P D Patel Institute of Applied Science (PDPIAS)",
     CourseDuration: "02 Years",
     Intake: "30",
+<<<<<<< HEAD
     Fees: "₹ 80,000/-",
+=======
+    Fees: "Rs 80,000/-",
+>>>>>>> main
     Eligibility:
       "B.Sc (Micro/Bio Chemistry/ Biotechnology) minimum 50% required, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -356,7 +436,11 @@ const CourseList = [
     Institute: "P D Patel Institute of Applied Science (PDPIAS)",
     CourseDuration: "02 Years",
     Intake: "30",
+<<<<<<< HEAD
     Fees: "₹ 80,000/-",
+=======
+    Fees: "Rs 80,000/-",
+>>>>>>> main
     Eligibility:
       "B.Sc (Micro/Bio Chemistry/ Biotechnology) minimum 50% required, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -374,7 +458,11 @@ const CourseList = [
     Institute: "P D Patel Institute of Applied Science (PDPIAS)",
     CourseDuration: "02 Years",
     Intake: "30",
+<<<<<<< HEAD
     Fees: "₹ 80,000/-",
+=======
+    Fees: "Rs 80,000/-",
+>>>>>>> main
     Eligibility:
       "B.Sc (Micro/Bio Chemistry/ Biotechnology) minimum 50% required, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -392,7 +480,11 @@ const CourseList = [
     Institute: "P D Patel Institute of Applied Science (PDPIAS)",
     CourseDuration: "02 Years",
     Intake: "40",
+<<<<<<< HEAD
     Fees: "₹ 70,000/-",
+=======
+    Fees: "Rs 70,000/-",
+>>>>>>> main
     Eligibility:
       "B.Sc(Chemistry) minimum 50% required, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -410,7 +502,11 @@ const CourseList = [
     Institute: "P D Patel Institute of Applied Science (PDPIAS)",
     CourseDuration: "02 Years",
     Intake: "30",
+<<<<<<< HEAD
     Fees: "₹ 60,000/-",
+=======
+    Fees: "Rs 60,000/-",
+>>>>>>> main
     Eligibility:
       "B.Sc(Physics) minimum 50% required,Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -429,7 +525,11 @@ const CourseList = [
       "Smt.Chandaben Mohanbhai Patel Institute of Computer Application (CMPICA)",
     CourseDuration: "03 Years",
     Intake: "120",
+<<<<<<< HEAD
     Fees: "₹ 40,000/-",
+=======
+    Fees: "Rs 40,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State Board/Commerce Stream with minimum 50% required and Science Stream minimum 45% required, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -448,7 +548,11 @@ const CourseList = [
       "Smt.Chandaben Mohanbhai Patel Institute of Computer Application (CMPICA)",
     CourseDuration: "02 Years",
     Intake: "30",
+<<<<<<< HEAD
     Fees: "₹ 60,000/-",
+=======
+    Fees: "Rs 60,000/-",
+>>>>>>> main
     Eligibility:
       "Any Graduate with 50% marks in BCA, B.Sc (IT), B.Tech Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -466,7 +570,11 @@ const CourseList = [
     Institute: "Manikaka Topawala Institute of Nursing (MTIN)",
     CourseDuration: "04 Years",
     Intake: "60",
+<<<<<<< HEAD
     Fees: "₹ 1,56,000/-",
+=======
+    Fees: "Rs 1,56,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board Minimum 45% in PCB subjects (as per INC)",
     syllabusBtn: "View Syllabus",
@@ -484,7 +592,11 @@ const CourseList = [
     Institute: "Manikaka Topawala Institute of Nursing (MTIN)",
     CourseDuration: "02 Years",
     Intake: "04",
+<<<<<<< HEAD
     Fees: "₹ 1,92,000/-",
+=======
+    Fees: "Rs 1,92,000/-",
+>>>>>>> main
     Eligibility:
       "A degree in B.Sc. (Nursing) andminimum 1 year of work experience post B.Sc. Nursing and Minimum 1 year experience,Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -502,7 +614,11 @@ const CourseList = [
     Institute: "Manikaka Topawala Institute of Nursing (MTIN)",
     CourseDuration: "02 Years",
     Intake: "04",
+<<<<<<< HEAD
     Fees: "₹ 1,92,000/-",
+=======
+    Fees: "Rs 1,92,000/-",
+>>>>>>> main
     Eligibility:
       "A degree in B.Sc. (Nursing) andminimum 1 year of work experience post B.Sc. Nursing and Minimum 1 year experience,Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -520,7 +636,11 @@ const CourseList = [
     Institute: "Manikaka Topawala Institute of Nursing (MTIN)",
     CourseDuration: "02 Years",
     Intake: "04",
+<<<<<<< HEAD
     Fees: "₹ 1,92,000/-",
+=======
+    Fees: "Rs 1,92,000/-",
+>>>>>>> main
     Eligibility:
       "A degree in B.Sc. (Nursing) andminimum 1 year of work experience post B.Sc. Nursing and Minimum 1 year experience,Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -554,7 +674,11 @@ const CourseList = [
     Institute: "Manikaka Topawala Institute of Nursing (MTIN)",
     CourseDuration: "02 Years",
     Intake: "04",
+<<<<<<< HEAD
     Fees: "₹ 1,92,000/-",
+=======
+    Fees: "Rs 1,92,000/-",
+>>>>>>> main
     Eligibility:
       "A degree in B.Sc. (Nursing) andminimum 1 year of work experience post B.Sc. Nursing and Minimum 1 year experience,Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -573,7 +697,11 @@ const CourseList = [
       "Bapubhai Desaibhai Patel Institute of Paramedical Science(BDPIPS)",
     CourseDuration: "04 Years",
     Intake: "30",
+<<<<<<< HEAD
     Fees: "₹ 60,000/-",
+=======
+    Fees: "Rs 60,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board Minimum 50% in PCB subjects, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -591,7 +719,11 @@ const CourseList = [
       "Bapubhai Desaibhai Patel Institute of Paramedical Science(BDPIPS)",
     CourseDuration: "03+1 Years",
     Intake: "40",
+<<<<<<< HEAD
     Fees: "₹ 40,000/-",
+=======
+    Fees: "Rs 40,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board Minimum 50% in PCB subjects, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -610,7 +742,11 @@ const CourseList = [
       "Bapubhai Desaibhai Patel Institute of Paramedical Science(BDPIPS)",
     CourseDuration: "04 Years",
     Intake: "30",
+<<<<<<< HEAD
     Fees: "₹ 40,000/-",
+=======
+    Fees: "Rs 40,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board Minimum 50% in PCB subjects, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -628,7 +764,11 @@ const CourseList = [
       "Bapubhai Desaibhai Patel Institute of Paramedical Science(BDPIPS)",
     CourseDuration: "02 Years",
     Intake: "30",
+<<<<<<< HEAD
     Fees: "₹ 60,000/-",
+=======
+    Fees: "Rs 60,000/-",
+>>>>>>> main
     Eligibility:
       "B.Sc (Micro/Bio Technology/Chemistry and DMLT) minimum 50% required, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -646,7 +786,11 @@ const CourseList = [
       "Bapubhai Desaibhai Patel Institute of Paramedical Science(BDPIPS)",
     CourseDuration: "02 Years",
     Intake: "10",
+<<<<<<< HEAD
     Fees: "₹ 1,00,000/-",
+=======
+    Fees: "Rs 1,00,000/-",
+>>>>>>> main
     Eligibility:
       "B.Sc (Medical Imaging Technology) minimum 50% required, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -664,7 +808,11 @@ const CourseList = [
       "Bapubhai Desaibhai Patel Institute of Paramedical Science(BDPIPS)",
     CourseDuration: "04 Years",
     Intake: "20",
+<<<<<<< HEAD
     Fees: "₹ 1,00,000/-",
+=======
+    Fees: "Rs 1,00,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board Minimum 50% in PCB subjects, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -681,7 +829,11 @@ const CourseList = [
     Institute: "Chandubhai S. Patel Insitute of Technology(CSPIT)",
     CourseDuration: "04 Years",
     Intake: "90",
+<<<<<<< HEAD
     Fees: "₹ 1,28,000/-",
+=======
+    Fees: "1,28,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -699,7 +851,11 @@ const CourseList = [
       "Chandubhai S. Patel Insitute of Technology(CSPIT) | Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
     CourseDuration: "04 Years",
     Intake: "CSPIT-120 | DEPSTAR-120",
+<<<<<<< HEAD
     Fees: "CSPIT-₹ 1,28,000/- | DEPSTAR-₹ 98,000/-",
+=======
+    Fees: "CSPIT-Rs 1,28,000/- | DEPSTAR-Rs 98,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -720,7 +876,11 @@ const CourseList = [
       "Chandubhai S. Patel Insitute of Technology(CSPIT) | Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
     CourseDuration: "04 Years",
     Intake: "CSPIT-60 | DEPSTAR-120",
+<<<<<<< HEAD
     Fees: "CSPIT-₹ 1,28,000/- | DEPSTAR-₹ 98,000/-",
+=======
+    Fees: "CSPIT-Rs 1,28,000/- | DEPSTAR-Rs 98,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -742,7 +902,11 @@ const CourseList = [
       "Chandubhai S. Patel Insitute of Technology(CSPIT) | Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
     CourseDuration: "04 Years",
     Intake: "CSPIT-60 | DEPSTAR-120",
+<<<<<<< HEAD
     Fees: "CSPIT-₹ 1,35,000/- | DEPSTAR-₹ 1,0,000/-",
+=======
+    Fees: "CSPIT-Rs 1,35,000/- | DEPSTAR-Rs 1,0,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -762,7 +926,11 @@ const CourseList = [
     Institute: "Chandubhai S. Patel Insitute of Technology(CSPIT)",
     CourseDuration: "04 Years",
     Intake: "60",
+<<<<<<< HEAD
     Fees: "₹ 1,28,000/-",
+=======
+    Fees: "Rs 1,28,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -780,7 +948,11 @@ const CourseList = [
     Institute: "Chandubhai S. Patel Insitute of Technology(CSPIT)",
     CourseDuration: "04 Years",
     Intake: "60",
+<<<<<<< HEAD
     Fees: "₹ 1,28,000/-",
+=======
+    Fees: "Rs 1,28,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -798,7 +970,11 @@ const CourseList = [
       "Chandubhai S. Patel Insitute of Technology(CSPIT) | Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
     CourseDuration: "04 Years",
     Intake: "CSPIT-120 | DEPSTAR-60",
+<<<<<<< HEAD
     Fees: "CSPIT-₹ 1,28,000/- | DEPSTAR-₹ 98,000/-",
+=======
+    Fees: "CSPIT-Rs 1,28,000/- | DEPSTAR-Rs 98,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -818,7 +994,11 @@ const CourseList = [
     Institute: "Chandubhai S. Patel Insitute of Technology(CSPIT)",
     CourseDuration: "04 Years",
     Intake: "60",
+<<<<<<< HEAD
     Fees: "₹ 1,28,000/-",
+=======
+    Fees: "Rs 1,28,000/-",
+>>>>>>> main
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -851,7 +1031,11 @@ const CourseList = [
     Institute: "Chandubhai S. Patel Insitute of Technology(CSPIT)",
     CourseDuration: "02 Years",
     Intake: "18",
+<<<<<<< HEAD
     Fees: "₹ 1,59,000/-",
+=======
+    Fees: "Rs 1,59,000/-",
+>>>>>>> main
     Eligibility:
       "BE/B.Tech in relevant discipline with minimum 50 % and should have applied/appeared in GATE/Non-GATE Entrance Exam Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -868,7 +1052,11 @@ const CourseList = [
     Institute: "Chandubhai S. Patel Insitute of Technology(CSPIT)",
     CourseDuration: "02 Years",
     Intake: "18",
+<<<<<<< HEAD
     Fees: "₹ 1,59,000/-",
+=======
+    Fees: "Rs 1,59,000/-",
+>>>>>>> main
     Eligibility:
       "BE/B.Tech in relevant discipline with minimum 50 % and should have applied/appeared in GATE/Non-GATE Entrance Exam Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -885,7 +1073,11 @@ const CourseList = [
     Institute: "Chandubhai S. Patel Insitute of Technology(CSPIT)",
     CourseDuration: "02 Years",
     Intake: "18",
+<<<<<<< HEAD
     Fees: "₹ 1,59,000/-",
+=======
+    Fees: "Rs 1,59,000/-",
+>>>>>>> main
     Eligibility:
       "BE/B.Tech in relevant discipline with minimum 50 % and should have applied/appeared in GATE/Non-GATE Entrance Exam Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -902,7 +1094,11 @@ const CourseList = [
     Institute: "Chandubhai S. Patel Insitute of Technology(CSPIT)",
     CourseDuration: "02 Years",
     Intake: "18",
+<<<<<<< HEAD
     Fees: "₹ 1,59,000/-",
+=======
+    Fees: "Rs 1,59,000/-",
+>>>>>>> main
     Eligibility:
       "BE/B.Tech in relevant discipline with minimum 50 % and should have applied/appeared in GATE/Non-GATE Entrance Exam Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -937,7 +1133,11 @@ const CourseList = [
       "Bapubhai Desaibhai Patel Institute of Paramedical Sciences(BDPIPS)",
     CourseDuration: "01 Years",
     Intake: "20",
+<<<<<<< HEAD
     Fees: "₹ 20,000/-",
+=======
+    Fees: "Rs 20,000/-",
+>>>>>>> main
     Eligibility:
       "B.Sc (Micro/Bio Technology/Chemistry DMLT)minimum 50% required,Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -955,7 +1155,11 @@ const CourseList = [
       "Bapubhai Desaibhai Patel Institute of Paramedical Sciences(BDPIPS)",
     CourseDuration: "01 Years",
     Intake: "30",
+<<<<<<< HEAD
     Fees: "₹ 45,000/-",
+=======
+    Fees: "Rs 45,000/-",
+>>>>>>> main
     Eligibility:
       "B.Sc (Micro/Bio Technology/Chemistry DMLT)minimum 50% required,Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -972,7 +1176,11 @@ const CourseList = [
     Institute: "Chandubhai S. Patel Institute of Technology (CSPIT)",
     CourseDuration: "01 Years",
     Intake: "15",
+<<<<<<< HEAD
     Fees: "₹ 1,50,000/-",
+=======
+    Fees: "Rs 1,50,000/-",
+>>>>>>> main
     Eligibility: "Graduate in any discipline",
     syllabusBtn: "View Syllabus",
     syllabusLink: "http://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/",
@@ -988,7 +1196,11 @@ const CourseList = [
     Institute: "Manikaka Topawala Institute of Nursing (MTIN)",
     CourseDuration: "03 Years",
     Intake: "40",
+<<<<<<< HEAD
     Fees: "₹ 1,10,000/-",
+=======
+    Fees: "Rs 1,10,000/-",
+>>>>>>> main
     Eligibility:
       "HSC or Equivalent examination with Science Stream, General Stream,Vyavsaylakshi stream,Uchchatar Uttar Buniyadi Pravah Stream with English subject Minimum 40% required",
     syllabusBtn: "View Syllabus",
@@ -1003,7 +1215,10 @@ const CourseList = [
 ];
 
 const Transport = () => {
+<<<<<<< HEAD
   const [search, setSearch] = useState('')
+=======
+>>>>>>> main
   return (
     <Fragment>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
@@ -1012,6 +1227,7 @@ const Transport = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-12">
+<<<<<<< HEAD
             <span style={{
                 display: "flex",
                 flexDirection: "row",
@@ -1025,6 +1241,9 @@ const Transport = () => {
               {CourseList.filter((val) => {
                 return search.toLowerCase() === '' ? val : val.courseName.toLowerCase().includes(search)
               }).map((val, i) => (
+=======
+              {CourseList.map((val, i) => (
+>>>>>>> main
                 <article id={val.programCode}>
                   <div className="section-wrapper">
                     <div className="row row-cols-1 justify-content-center g-4">
