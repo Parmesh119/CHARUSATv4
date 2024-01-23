@@ -119,6 +119,9 @@ body{
     padding-bottom: 50px;
   }
 
+.post-content{
+  overflow-x: auto;
+}
 
 /* journey of charusat */
 
