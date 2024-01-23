@@ -106,14 +106,10 @@ const Header = () => {
                     Research
                   </a>
                 </li>
-<<<<<<< HEAD
                 <li
                   className="link"
                   
                 >
-=======
-                <li className="link">
->>>>>>> main
                   <a
                     id="IQAC-link"
                     target="_blank"
@@ -124,7 +120,6 @@ const Header = () => {
                 </li>
                 <li
                   className="link"
-<<<<<<< HEAD
                   
                 >
                   <a
@@ -137,8 +132,6 @@ const Header = () => {
                 </li>
                 <li
                   className="link"
-=======
->>>>>>> main
                   onMouseOver={() => {
                     document.getElementById("KnowCHARUSAT").style.display =
                       "grid";
