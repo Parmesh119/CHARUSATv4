@@ -1,4 +1,4 @@
-import { Component, Fragment } from "react";
+import { Component, Fragment,useState } from "react";
 import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
 import Contact from "../component/section/contact";
@@ -1003,6 +1003,7 @@ const CourseList = [
 ];
 
 const Transport = () => {
+  const [search, setSearch] = useState('')
   return (
     <Fragment>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
@@ -1011,7 +1012,19 @@ const Transport = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-12">
-              {CourseList.map((val, i) => (
+            <span style={{
+                display: "flex",
+                flexDirection: "row",
+              }}>
+                <input placeholder="Search" onChange={(e) => setSearch(e.target.value)} type="text" id="Search" className="my-2 rounded-3 w-80" />
+                {/* <button className="bg-black my-2 text-white rounded-3" style={{
+                  textAlign: "center",
+                }}>Search</button> */}
+             </span>
+
+              {CourseList.filter((val) => {
+                return search.toLowerCase() === '' ? val : val.courseName.toLowerCase().includes(search)
+              }).map((val, i) => (
                 <article id={val.programCode}>
                   <div className="section-wrapper">
                     <div className="row row-cols-1 justify-content-center g-4">

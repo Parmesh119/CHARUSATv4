@@ -120,6 +120,18 @@ const Header = () => {
                 </li>
                 <li
                   className="link"
+                  
+                >
+                  <a
+                    id="IQAC-link"
+                    target="_blank"
+                    href="https://charusat.online/"
+                  >
+                  Online Programmes
+                  </a>
+                </li>
+                <li
+                  className="link"
                   onMouseOver={() => {
                     document.getElementById("KnowCHARUSAT").style.display =
                       "grid";

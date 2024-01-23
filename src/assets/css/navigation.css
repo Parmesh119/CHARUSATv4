@@ -12,6 +12,15 @@
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-width: 1200px) {
+  .nav {
+    padding: 0 -20px;
+  }
+  header .container{
+    margin:0 10px;
+  }
+  
+}
 
 .icon {
   width: 90px;
@@ -156,7 +165,7 @@
 
 @media screen and (max-width: 1340px) {
   .nav {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
   .charusat {
     margin-left: 1rem !important;
