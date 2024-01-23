@@ -1,7 +1,15 @@
 body{
+<<<<<<< HEAD
+    overflow-x: hidden;
+}
+html{
+  overflow-x: hidden;
+}
+=======
 
     overflow-x: hidden;
 }
+>>>>>>> main
 .lab-ul li:hover{
     box-shadow: rgb(0, 102, 179) 0px 1px 4px;
     border-radius: 50px;
@@ -119,6 +127,59 @@ body{
     padding-bottom: 50px;
   }
 
+<<<<<<< HEAD
+
+/* footer */
+
+.content1{
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 202px;
+  
+}
+
+/* support charusat */
+
+
+
+@media (max-width: 1404px) {
+ .c111{
+   margin-left: 20px;
+ }
+}
+@media (max-width: 1273px) {
+ .c111{
+   margin-left: 0px;
+ }
+}
+@media (max-width: 1439px) {
+  .glance1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
+
+
+/* silder responssiveness */
+
+@media (max-width: 762px) {
+  .slider-content{
+    width: 100%;
+  }
+  .inner{
+    margin-left: -12%;
+  }
+}
+.slider-content{
+  width: 100%;
+  background-size: cover;
+}
+
+.post-content{
+  overflow-x: auto;
+}
+=======
 .post-content{
   overflow-x: auto;
 }
@@ -128,3 +189,4 @@ body{
 
 
 
+>>>>>>> main
