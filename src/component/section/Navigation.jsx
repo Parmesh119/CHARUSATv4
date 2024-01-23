@@ -106,9 +106,7 @@ const Header = () => {
                     Research
                   </a>
                 </li>
-                <li
-                  className="link"                  
-                >
+                <li className="link">
                   <a
                     id="IQAC-link"
                     target="_blank"
@@ -815,7 +813,7 @@ const Header = () => {
                     University Officers
                   </Link>
                   <Link to="./journey" className="menu-link">
-                   Journey of Charusat
+                    Journey of Charusat
                   </Link>
                 </div>
               </div>
