@@ -49,8 +49,15 @@ const HeaderThree = () => {
         }}
       >
         <div
+<<<<<<< HEAD
           className="container c111"
           
+=======
+          className="container"
+          style={{
+            margin: "0 auto",
+          }}
+>>>>>>> main
         >
           <div className="header-top-area" style={{ position: "relative" }}>
             {/* <div className="header-top-contact  ">

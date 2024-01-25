@@ -105,10 +105,14 @@ const Header = () => {
                     Research
                   </a>
                 </li>
+<<<<<<< HEAD
                 <li
                   className="link"
                   
                 >
+=======
+                <li className="link">
+>>>>>>> main
                   <a
                     id="IQAC-link"
                     target="_blank"
@@ -119,6 +123,7 @@ const Header = () => {
                 </li>
                 <li
                   className="link"
+<<<<<<< HEAD
                   
                 >
                   <a
@@ -131,6 +136,8 @@ const Header = () => {
                 </li>
                 <li
                   className="link"
+=======
+>>>>>>> main
                   onMouseOver={() => {
                     document.getElementById("KnowCHARUSAT").style.display =
                       "grid";
@@ -218,7 +225,11 @@ const Header = () => {
                   BCA
                 </Link>
                 <Link to="./course-single#2402" className="menu-link">
+<<<<<<< HEAD
                   B.Sc.(IT)
+=======
+                  B.Sc(IT)
+>>>>>>> main
                 </Link>
                 <Link to="./course-single#3401" className="menu-link">
                   B.Pharm (Bachelor of Pharmacy)
@@ -227,18 +238,27 @@ const Header = () => {
                   BBA
                 </Link>
                 <Link to="./course-single#5401" className="menu-link">
+<<<<<<< HEAD
                   B.Sc.(Biology)
+=======
+                  B.Sc(Biology)
+>>>>>>> main
                 </Link>
                 <Link to="./course-single#6401" className="menu-link">
                   BPT(Bachelor of Physiotherapy)
                 </Link>
                 <Link to="./course-single#6402" className="menu-link">
+<<<<<<< HEAD
                   B.Sc.(Nursing)
+=======
+                  B.Sc(Nursing)
+>>>>>>> main
                 </Link>
                 <Link to="./course-single#6405" className="menu-link">
                   Bachelor of Optometry (B.Optom.)
                 </Link>
                 <Link to="./course-single#6403" className="menu-link">
+<<<<<<< HEAD
                   B.Sc. (Imaging Technology)
                 </Link>
                 <Link to="./course-single#6406" className="menu-link">
@@ -250,6 +270,19 @@ const Header = () => {
 
                 <Link to="./course-single#5401" className="menu-link">
                   B.Sc. (Microbiology, Biotechnology, Biochemistry)
+=======
+                  B.Sc (Imaging Technology)
+                </Link>
+                <Link to="./course-single#6406" className="menu-link">
+                  B.Sc (Medical Technnology)
+                </Link>
+                <Link to="./course-single#6404" className="menu-link">
+                  B.Sc (Operation Theatre & Anesthesia Technology)
+                </Link>
+
+                <Link to="./course-single#5401" className="menu-link">
+                  B.Sc (Microbiology, Biotechnology, Biochemistry)
+>>>>>>> main
                 </Link>
               </div>
             </div>
@@ -263,7 +296,11 @@ const Header = () => {
                   MCA
                 </Link>
                 <Link to="./course-single#2502" className="menu-link">
+<<<<<<< HEAD
                   M.Sc.(IT)
+=======
+                  M.Sc(IT)
+>>>>>>> main
                 </Link>
                 <Link to="./course-single#3501" className="menu-link">
                   M.Pharm
@@ -272,6 +309,7 @@ const Header = () => {
                   MBA
                 </Link>
                 <Link to="./course-single#5505" className="menu-link">
+<<<<<<< HEAD
                   M.Sc. (Advanced Organic Chemistry)
                 </Link>
                 <Link to="./course-single#5502" className="menu-link">
@@ -285,11 +323,27 @@ const Header = () => {
                 </Link>
                 <Link to="./course-single#5506" className="menu-link">
                   M.Sc. (Physics)
+=======
+                  M.Sc (Advanced Organic Chemistry)
+                </Link>
+                <Link to="./course-single#5502" className="menu-link">
+                  M.Sc (Biochemistry)
+                </Link>
+                <Link to="./course-single#5501" className="menu-link">
+                  M.Sc (Biotechnology)
+                </Link>
+                <Link to="./course-single#5503" className="menu-link">
+                  M.Sc (Microbiology)
+                </Link>
+                <Link to="./course-single#5506" className="menu-link">
+                  M.Sc (Physics)
+>>>>>>> main
                 </Link>
                 <Link to="./course-single#6501" className="menu-link">
                   MPT (Master of Physiotherapy)
                 </Link>
                 <Link to="./course-single#6510" className="menu-link">
+<<<<<<< HEAD
                   M.Sc. (Nursing)
                 </Link>
                 <Link to="./course-single#6514" className="menu-link">
@@ -300,6 +354,18 @@ const Header = () => {
                 </Link>
                 <Link to="./course-single#6513" className="menu-link">
                   M.Sc. (Maths)
+=======
+                  M.Sc (Nursing)
+                </Link>
+                <Link to="./course-single#6514" className="menu-link">
+                  M.Sc (Medical Imaging Technology)
+                </Link>
+                <Link to="./course-single#6513" className="menu-link">
+                  M.Sc (Medical Laboratory Technology)
+                </Link>
+                <Link to="./course-single#6513" className="menu-link">
+                  M.Sc (Maths)
+>>>>>>> main
                 </Link>
               </div>
             </div>
@@ -828,7 +894,11 @@ const Header = () => {
                     University Officers
                   </Link>
                   <Link to="./journey" className="menu-link">
+<<<<<<< HEAD
                    Journey of Charusat
+=======
+                    Journey of Charusat
+>>>>>>> main
                   </Link>
                 </div>
               </div>
