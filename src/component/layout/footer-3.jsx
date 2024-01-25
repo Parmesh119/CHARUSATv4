@@ -265,7 +265,7 @@ const FooterThree = () => {
                         >
                           {/* <ul className="lab-ul"> */}
                           {/* <GoogleMap /> */}
-                          <a href="https://www.google.com/maps?ll=22.599358,72.820467&z=15&t=m&hl=en-US&gl=US&mapclient=embed&cid=362346160943384765">
+                          <a href="https://www.google.com/maps?ll=22.599358,72.820467&z=15&t=m&hl=en-US&gl=US&mapclient=embed&cid=362346160943384765" target="_blank">
                           <img src="assets\images\map\map.png" alt="" />
                           </a>
                           
