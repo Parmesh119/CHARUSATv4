@@ -119,7 +119,7 @@ const Convocations = () => {
                                   </h6>
                                 </Col>
                               </Row>
-                              <Row className="p-2">
+                                <Row className="p-2">
                                 <Col md={2}>
                                   <Image
                                     src={Convocation_12_Guest}
