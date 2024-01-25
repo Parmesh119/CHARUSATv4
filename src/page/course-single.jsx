@@ -1008,7 +1008,7 @@ const Transport = () => {
     <Fragment>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
 
-      <div className="blog-section padding-tb section-bg">
+      <div className="blog-section padding-t section-bg">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-12">
@@ -1016,7 +1016,7 @@ const Transport = () => {
                 display: "flex",
                 flexDirection: "row",
               }}>
-                <input placeholder="Search" onChange={(e) => setSearch(e.target.value)} type="text" id="Search" className="my-2 rounded-3 w-80" />
+                <input placeholder="Search" onChange={(e) => setSearch((e.target.value).toLowerCase())} type="text" id="Search" className="my-2 rounded-3 w-80 search1" autoFocus />
                 {/* <button className="bg-black my-2 text-white rounded-3" style={{
                   textAlign: "center",
                 }}>Search</button> */}
@@ -1074,7 +1074,7 @@ const Transport = () => {
                                   </tr>
                                   <tr>
                                     <td>
-                                      <b>Course Duration: </b>
+                                      <b>Duration: </b>
                                     </td>
                                     <td>{val.CourseDuration}</td>
                                   </tr>
@@ -1097,6 +1097,7 @@ const Transport = () => {
                                     <td>{val.Eligibility}</td>
                                   </tr>
                                 </table>
+                                <br />
                                 {val.syllabusLink !== "#" ? (
                                   <a class="lab-btn" href={val.syllabusLink}>
                                     <span>{val.syllabusBtn}</span>

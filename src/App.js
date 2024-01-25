@@ -71,6 +71,7 @@ import ComingSoon from "./page/ComingSoon";
 import Edic from "./page/edic";
 import StudentCorner from "./page/student-corner";
 import PhDPrograms from "./page/ph-d-programs";
+import SamajGosthi from "./page/samajGosthi"
 import AnnualReport from "./page/annual-report";
 
 import { Helmet } from "react-helmet";
@@ -161,6 +162,7 @@ function App() {
         <Route path="/student-corner" element={<StudentCorner />} />
         <Route path="/crtc" element={<CSRTC />} />
         <Route exact path="/ph-d-programs" element={<PhDPrograms />} />
+        <Route exact path="/samaj-gosthi" element={<SamajGosthi />} />
         <Route path="/annual-report" element={<AnnualReport />} />
         <Route path="university-industry-interaction-cell" element={<UIIC />} />
         <Route path="/anti-ragging" element={<AntiRagging />} />

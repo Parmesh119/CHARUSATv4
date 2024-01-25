@@ -11,7 +11,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../../assets/css/navigation.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import Scroll from "react-scroll";
-import logo from "../../files/logo.webp";
 const ScrollLink = Scroll.ScrollLink;
 
 const Header = () => {
@@ -37,7 +36,7 @@ const Header = () => {
             <div className="logo">
               <Link to="./home" className="charusat-main">
                 <img
-                  src={logo}
+                  src="assets/images/logo/logo.webp"
                   alt="CHARUSAT"
                   style={{
                     width: "17rem",
@@ -306,9 +305,10 @@ const Header = () => {
             </div>
             <div className="menu-div border-left">
               <div className="menu-d">
+             
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <Link to="./ph-d-programs" className="menu-link">
+                  <Link to="assets\files\PHD\PhD_Regulations.pdf" target="_blank" className="menu-link">
                     General Information
                   </Link>
                 </div>
@@ -955,6 +955,15 @@ const Header = () => {
                   <Link to="./annual-report" className="menu-link">
                     Annual Report
                   </Link>
+                  <Link to="assets\files\CHARUSAT_Action_Plan.pdf" target="_blank" className="menu-link">
+                    Strategic Plan
+                  </Link>
+                  <Link to="./samaj-gosthi" className="menu-link">
+                    Samaj Gosthi
+                  </Link>
+                  <Link to="assets\images\map\charusat-map.jpg" target="_blank" className="menu-link">
+                    Campus Map
+                  </Link>
                   <a
                     href="https://charusat.ac.in/Downloads/"
                     className="menu-link"
@@ -1003,7 +1012,7 @@ const Header = () => {
             <Navbar.Brand href="#home">
               <a href="./" class="charusat">
                 <img
-                  src={logo}
+                  src="assets/images/logo/logo.webp"
                   alt="CHARUSAT"
                   style={{
                     width: "15rem",
@@ -1014,6 +1023,20 @@ const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
+              <NavDropdown title="Quick Links" id="basic-nav-dropdown">
+                  <Dropdown.Item  href="./accreditation-and-ranking">Accreditation & Ranking</Dropdown.Item>
+                  <Dropdown.Item href="https://charusatalumni.org">Alumni</Dropdown.Item>
+                  <Dropdown.Item href="./careers">Careers</Dropdown.Item>
+                  <Dropdown.Item href="./accreditation-and-ranking">NIRF</Dropdown.Item>
+                  <Dropdown.Item href="./placement">Placement</Dropdown.Item>
+                  <Dropdown.Item href="./scholarship">Scholarships</Dropdown.Item>
+                  <Dropdown.Item href="./scholarship">Samaj Scholarships</Dropdown.Item>
+                  <Dropdown.Item href="./student-corner">Student Corner</Dropdown.Item>
+                  <Dropdown.Item href="https://charusat.edu.in:912/UniExamResult/">Exam Result</Dropdown.Item>
+                  <Dropdown.Item href="https://charusat.edu.in:912/FeesPaymentApp/">Pay Fees</Dropdown.Item>
+                  <Dropdown.Item href="./contact-us">Contact Us</Dropdown.Item>
+                  <Dropdown.Item href="./contact-us">Support Charusat</Dropdown.Item>
+                </NavDropdown>
                 <NavDropdown title="Academics" id="basic-nav-dropdown">
                   <Dropdown>
                     <Dropdown.Toggle variant="" id="dropdown">
@@ -1529,6 +1552,12 @@ const Header = () => {
                       <Dropdown.Item href="https://charusat.ac.in/Downloads/">
                         Downloads
                       </Dropdown.Item>
+                      {/* <Dropdown.Item href="\assets\files\CHARUSAT Action Plan.pdf">
+                        Strategic Plan
+                      </Dropdown.Item>
+                      <Dropdown.Item href="https://charusat.ac.in/Downloads/">
+                        Samaj Gosthi
+                      </Dropdown.Item> */}
                     </Dropdown.Menu>
                   </Dropdown>
                 </NavDropdown>
