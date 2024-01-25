@@ -1,4 +1,8 @@
-import { Component, Fragment,useState } from "react";
+
+
+import { Component, Fragment, useState } from "react";
+
+
 import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
 import Contact from "../component/section/contact";
@@ -17,8 +21,7 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FMS%20I2IM/",
     brochureBtn: "Download Brochure",
-    brochureLink:
-      "http://charusat.ac.in/Downloads/Brochure/IIIM/",
+    brochureLink: "http://charusat.ac.in/Downloads/Brochure/IIIM/",
     websiteBtn: "Visit Website",
     websiteLink: "https://charusat.ac.in/i2im/",
     programCode: "4401",
@@ -35,8 +38,7 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FMS%20I2IM/",
     brochureBtn: "Download Brochure",
-    brochureLink:
-      "http://charusat.ac.in/Downloads/Brochure/IIIM/",
+    brochureLink: "http://charusat.ac.in/Downloads/Brochure/IIIM/",
     websiteBtn: "Visit Website",
     websiteLink: "https://charusat.ac.in/i2im/",
     programCode: "4501",
@@ -687,7 +689,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/CL/",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit Website",
     websiteLink: "https://cspitcivil.com/",
     programCode: "1406",
@@ -705,7 +708,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/CE/",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit CSPIT",
     websiteLink: "https://charusat.ac.in/cspit/ce/",
     txtBtn4: "Visit DEPSTAR",
@@ -726,7 +730,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/CSE/",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit CSPIT",
     websiteLink: "https://charusat.ac.in/cspit/cse/",
     txtBtn4: "Visit DEPSTAR",
@@ -748,7 +753,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/CSE/",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit CSPIT",
     websiteLink: "https://charusat.ac.in/cspit/ce/",
     txtBtn4: "Visit DEPSTAR",
@@ -768,7 +774,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/EE/",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit Website",
     websiteLink: "https://charusat.ac.in/cspit/ee/",
     programCode: "1403",
@@ -786,7 +793,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/EC/",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit Website",
     websiteLink: "https://charusat.ac.in/cspit/ec/",
     programCode: "1402",
@@ -804,7 +812,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/IT/",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit CSPIT",
     websiteLink: "https://charusat.ac.in/cspit/it/",
     txtBtn4: "Visit DEPSTAR",
@@ -824,7 +833,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/ME",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit Website",
     websiteLink: "https://charusat.ac.in/cspit/me/",
     programCode: "1405",
@@ -857,7 +867,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/CL/",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit Website",
     websiteLink: "https://cspitcivil.com",
     programCode: "1406",
@@ -874,7 +885,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/CE/",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit Website",
     websiteLink: "https://charusat.ac.in/cspit/ce/",
     programCode: "1503",
@@ -891,7 +903,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/EE/",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit Website",
     websiteLink: "https://charusat.ac.in/cspit/ee/",
     programCode: "1504",
@@ -908,7 +921,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/ME/",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit Website",
     websiteLink: "https://charusat.ac.in/cspit/me/",
     programCode: "1507",
@@ -977,7 +991,8 @@ const CourseList = [
     syllabusBtn: "View Syllabus",
     syllabusLink: "http://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/",
     brochureBtn: "Download Brochure",
-    brochureLink: "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
+    brochureLink:
+      "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit Website",
     websiteLink: "https://pgdcs.charusat.ac.in/",
     programCode: "1301",
@@ -1003,7 +1018,9 @@ const CourseList = [
 ];
 
 const Transport = () => {
+
   const [search, setSearch] = useState('')
+
   return (
     <Fragment>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
@@ -1012,18 +1029,24 @@ const Transport = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-12">
+
             <span style={{
                 display: "flex",
                 flexDirection: "row",
               }}>
                 <input placeholder="Search" onChange={(e) => setSearch((e.target.value).toLowerCase())} type="text" id="Search" className="my-2 rounded-3 w-80 search1" autoFocus />
+
+              
+
                 {/* <button className="bg-black my-2 text-white rounded-3" style={{
                   textAlign: "center",
                 }}>Search</button> */}
-             </span>
+              </span>
 
               {CourseList.filter((val) => {
-                return search.toLowerCase() === '' ? val : val.courseName.toLowerCase().includes(search)
+                return search.toLowerCase() === ""
+                  ? val
+                  : val.courseName.toLowerCase().includes(search);
               }).map((val, i) => (
                 <article id={val.programCode}>
                   <div className="section-wrapper">

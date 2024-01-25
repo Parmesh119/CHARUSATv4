@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Navigation from "../section/Navigation";
 import "../../assets/css/blink-text.css";
 import "../../assets/css/header.css";
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 
 import {
   Nav,
@@ -48,17 +48,7 @@ const HeaderThree = () => {
           fontSize: "0.8rem",
         }}
       >
-        <div
-<<<<<<< HEAD
-          className="container c111"
-          
-=======
-          className="container"
-          style={{
-            margin: "0 auto",
-          }}
->>>>>>> main
-        >
+        <div className="container c111">
           <div className="header-top-area" style={{ position: "relative" }}>
             {/* <div className="header-top-contact  ">
               <a href="https://admission2023.charusat.ac.in" className="blink">
@@ -83,12 +73,8 @@ const HeaderThree = () => {
               </Link>
               <Link to="./accreditation-and-ranking">NIRF</Link>
               <Link to="./placement">Placement</Link>
-              <a href="./scholarship">
-                Scholarships
-              </a>
-              <a href="./scholarship">
-                Samaj Scholarships
-              </a>
+              <a href="./scholarship">Scholarships</a>
+              <a href="./scholarship">Samaj Scholarships</a>
               <Link to="./student-corner">Student Corner</Link>
 
               {/* <Link to="/signup" className="signup">
@@ -113,17 +99,19 @@ const HeaderThree = () => {
               </Link>
 
               <Link to="/donation">
-                <span className="support-btn">Support <TypeAnimation
-  sequence={[
-    // Same substring at the start will only be typed once, initially
-    "CHARUSAT",
-    4500,
-    "",
-  ]}
-  speed={50}
-  repeat={Infinity}
-  
-/></span>
+                <span className="support-btn">
+                  Support{" "}
+                  <TypeAnimation
+                    sequence={[
+                      // Same substring at the start will only be typed once, initially
+                      "CHARUSAT",
+                      4500,
+                      "",
+                    ]}
+                    speed={50}
+                    repeat={Infinity}
+                  />
+                </span>
               </Link>
             </div>
           </div>
