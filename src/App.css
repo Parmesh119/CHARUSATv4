@@ -1,15 +1,14 @@
-body {
-  overflow-x: hidden;
+
+body{
+    overflow-x: hidden;
+
 }
 html {
   overflow-x: hidden;
 }
 
-.lab-ul li:hover {
-  box-shadow: rgb(0, 102, 179) 0px 1px 4px;
-  border-radius: 50px;
-  padding-left: 5px;
-}
+ 
+
 .event_main {
   display: flex;
   justify-content: center;
@@ -119,6 +118,7 @@ html {
   padding-bottom: 50px;
 }
 
+
 /* footer */
 
 .content1 {
@@ -162,8 +162,19 @@ html {
   background-size: cover;
 }
 
-.post-content {
+
+.post-content{
   overflow-x: auto;
 }
 
-/* journey of charusat */
+
+.content img{
+  width: 350px;
+}
+
+input:focus{
+  border: 1px solid black;
+}
+
+
+

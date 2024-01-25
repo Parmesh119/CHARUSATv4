@@ -100,7 +100,7 @@ const About = () => {
           </div>
           <div className="col">
             <div className="about-left">
-              <div className="about-thumb" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+              <div className="about-thumb" data-aos-anchor-placement="top-bottom">
                 <img src="assets/images/about/04.png" alt="about"/>
               </div>
             </div>

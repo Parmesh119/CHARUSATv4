@@ -137,7 +137,7 @@ const StudentCorner = () => {
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
                                         Exam Result{" "}
                                       </span>
-                                      <i className="icofont-long-arrow-right"></i>
+                                      <i className="icofont-long-arrow-right boldArr"></i>
                                     </a>
                                   </div>
                                   <hr />
