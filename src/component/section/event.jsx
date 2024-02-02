@@ -7,14 +7,14 @@ const desc = "";
 const eventListOne = [
  
   {
-    imgUrl: "assets/images/MTIN_Clinical_Instructor_Interview_2024.jpg",
-    imgAlt: "Walk-in-interview for the Clinical Instructor",
-    Date: "22",
-    MonthYear: "JAN 2024",
-    link: "assets/images/MTIN_Clinical_Instructor_Interview_2024.jpg",
+    imgUrl: "assets/images/Foundation_Day.jpg",
+    imgAlt: "24th Foundation Day Celebrations",
+    Date: "03",
+    MonthYear: "FEB 2024",
+    link: "https://www.youtube.com/watch?v=9TB7wn-ciCQ&ab_channel=CHARUSAT",
     openInNewTab: true,
     title:
-      "Walk-in-interview for the Clinical Instructor",
+      "24th Foundation Day Celebrations",
     Time: "",
     Place: " CHARUSAT",
   },
@@ -53,7 +53,7 @@ const Event = () => {
                       <div className="event-thumb">
                         <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} data-aos="fade-right"/>
                       </div>
-                      {/* <div className="event-content" data-aos="fade-right"  data-aos-duration="3000">
+                      <div className="event-content" data-aos="fade-right"  data-aos-duration="3000">
                         <div className="event-date-info">
                           <div className="edi-box">
                             <h4>{val.Date}</h4>
@@ -84,7 +84,7 @@ const Event = () => {
                             )}
                           </ul>
                         </div>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
