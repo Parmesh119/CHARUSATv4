@@ -249,7 +249,7 @@ export default function collaboration() {
                   <i className="icofont-rounded-double-left"></i>
                 </div>
                 <Swiper
-                  spaceBetween={0}
+                  spaceBetween={5}
                   slidesPerView={2}
                   loop={"true"}
                   autoplay={{
@@ -268,7 +268,7 @@ export default function collaboration() {
                     },
                     768: {
                       width: 768,
-                      slidesPerView: 3,
+                      slidesPerView: 3.5,
                     },
                     1200: {
                       width: 1200,

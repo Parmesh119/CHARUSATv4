@@ -173,8 +173,8 @@ function App() {
         <Route path="/dvv_clarifications" element={<DvvClarifications />} />
         {/*  */}
         <Route path="/coming-soon" element={<ComingSoon />} />
-        <Route path="/error" element={<ErrorPage />} />
-        <Route path="*" element={<Home />} />
+        
+        {/* <Route path="*" element={<Home />} /> */}
         <Route path="/ecc" element={<ECC />} />
         <Route path="/eoc" element={<EOC />} />
         <Route path="/wdc" element={<WDC />} />
@@ -184,6 +184,8 @@ function App() {
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
         {/* <Route path="/announcements" element={<Announcements />} /> */}
         {/* <Route path="/accreditation" element={<Accreditation />} /> */}
+        <Route path="/error" element={<ErrorPage />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -50,13 +50,13 @@ const Certification_Courses = () => {
                                 </Col>
                                 <Col md={4}>
                                   <h6>Recruitment - Various positions</h6>
-                                  <p>
+                                  {/* <p>
                                     Last Date of Submission: 28 November, 2022
-                                  </p>
+                                  </p> */}
 
-                                  <a class="lab-btn text-white mt-2" href="#">
+                                  {/* <a class="lab-btn text-white mt-2" href="#">
                                     Qualification & Criteria
-                                  </a>
+                                  </a> */}
 
                                   <a
                                     class="lab-btn text-white mt-2"

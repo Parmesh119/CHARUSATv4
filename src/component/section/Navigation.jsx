@@ -1572,6 +1572,15 @@ const Header = () => {
                       <Dropdown.Item>
                         <Link to="./annual-report">Annual Reports</Link>
                       </Dropdown.Item>
+                      <Dropdown.Item>
+                        <Link to="assets\files\CHARUSAT_Action_Plan.pdf">Strategic Plan</Link>
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        <Link to="./samaj-gosthi">Samaj Gosthi</Link>
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        <Link to="assets\images\map\charusat-map.jpg" target="_blank">Campus Map</Link>
+                      </Dropdown.Item>
                       <Dropdown.Item href="https://charusat.ac.in/Downloads/">
                         Downloads
                       </Dropdown.Item>
