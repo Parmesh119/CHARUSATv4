@@ -58,7 +58,7 @@ const Home = () => {
       <Banner />
       <About />
       <Event />
-      <NewsFrontPage />
+      {/* <NewsFrontPage /> */}
       {/* <Messages /> */}
       <Faculties />
       <Intiatives />

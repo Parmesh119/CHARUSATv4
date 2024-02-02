@@ -131,7 +131,7 @@ export default function Faculties() {
   };
 
   return (
-    <div className="course-section style-3 padding-tb">
+    <div className="course-section style-3 padding-b">
       <div className="course-shape one">
         <img src="assets/images/shape-img/icon/01.png" alt="education" />
       </div>
