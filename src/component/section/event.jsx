@@ -5,63 +5,33 @@ const title = "Announcements";
 const desc = "";
 
 const eventListOne = [
+ 
   {
-    imgUrl: "assets/images/event/01.jpg",
-    imgAlt: "Conference on Ethics Review in Health Research",
-    Date: "28",
-    MonthYear: "APR 2023",
-    link: `${conferenceOnEthicsReviewInHealthResearch}`,
-    title: "Conference on Ethics Review in Health Research",
+    imgUrl: "assets/images/MTIN_Clinical_Instructor_Interview_2024.jpg",
+    imgAlt: "Walk-in-interview for the Clinical Instructor",
+    Date: "22",
+    MonthYear: "JAN 2024",
+    link: "assets/images/MTIN_Clinical_Instructor_Interview_2024.jpg",
+    openInNewTab: true,
+    title:
+      "Walk-in-interview for the Clinical Instructor",
     Time: "",
-    Place: "CHARUSAT, MTIN-Auditorium",
+    Place: " CHARUSAT",
   },
 ];
 
 const eventListTwo = [
   {
-    Date: "10",
-    MonthYear: "APR 2023",
-    link: "https://rb.gy/f7qfd",
+    Date: "22",
+    MonthYear: "JAN 2024",
+    link: "assets/images/MTIN_Clinical_Instructor_Interview_2024.jpg",
     openInNewTab: true,
     title:
-      "Registration form for CHARUSAT CAMPUS VISIT from Ahmedabad and Vadodara",
+      "Walk-in-interview for the Clinical Instructor",
     Time: "",
     Place: " CHARUSAT",
   },
-  {
-    Date: "28",
-    MonthYear: "APR 2023",
-    link: `${conferenceOnEthicsReviewInHealthResearch}`,
-    openInNewTab: true,
-    title: "Conference on Ethics Review in Health Research",
-    Time: "",
-    Place: " CHARUSAT",
-  },
-
-  {
-    Date: "22",
-    MonthYear: "May 2023",
-    link: `${certifcateCourseOnRProgrammingForBeginners}`,
-    openInNewTab: true,
-    title: "Certifcate Course on R Programming for Beginners",
-    Time: "",
-    Place: " CHARUSAT",
-  },
-
-  // {
-  //   Date: "18",
-  //   MonthYear: "Nav 2021",
-  //   title: "DASA Online Reporting Form",
-  //   link: "https://charusat.ac.in/arip/#admission",
-  //   openInNewTab: true,
-  //   Time: "08:30 am",
-  //   Place: " National Auditorium, Dhaka",
-  // },
-  // {
-  //   Date: "25",
-  //   MonthYear: "Nav 2021",
-  //   title: "PG Admission under DASA Scheme",
-  // },
+ 
 ];
 
 const Event = () => {
@@ -83,7 +53,7 @@ const Event = () => {
                       <div className="event-thumb">
                         <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} data-aos="fade-right"/>
                       </div>
-                      <div className="event-content" data-aos="fade-right"  data-aos-duration="3000">
+                      {/* <div className="event-content" data-aos="fade-right"  data-aos-duration="3000">
                         <div className="event-date-info">
                           <div className="edi-box">
                             <h4>{val.Date}</h4>
@@ -91,7 +61,7 @@ const Event = () => {
                           </div>
                         </div>
                         <div className="event-content-info">
-                          <a href={val.link}>
+                          <a href={val.link} target='_blank'>
                             <h3>{val.title}</h3>
                           </a>
                           <ul className="lab-ul">
@@ -114,7 +84,7 @@ const Event = () => {
                             )}
                           </ul>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
