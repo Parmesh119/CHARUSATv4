@@ -1,5 +1,6 @@
 import conferenceOnEthicsReviewInHealthResearch from '../../files/event/Conference on Ethics Review in Health Research.pdf'
 import certifcateCourseOnRProgrammingForBeginners from '../../files/event/Brochure_RProgramming.pdf'
+import { Link } from 'react-router-dom';
 const subTitle = "Don’t Miss the Day";
 const title = "Announcements";
 const desc = "";
@@ -22,16 +23,15 @@ const eventListOne = [
 
 const eventListTwo = [
   {
-    Date: "22",
-    MonthYear: "JAN 2024",
-    link: "assets/images/MTIN_Clinical_Instructor_Interview_2024.jpg",
+    Date: "03",
+    MonthYear: "FEB 2024",
+    link: "https://www.youtube.com/watch?v=9TB7wn-ciCQ&ab_channel=CHARUSAT",
     openInNewTab: true,
     title:
-      "Walk-in-interview for the Clinical Instructor",
+      "24th Foundation Day Celebrations",
     Time: "",
     Place: " CHARUSAT",
-  },
- 
+  }
 ];
 
 const Event = () => {
@@ -51,9 +51,9 @@ const Event = () => {
                   <div className="event-item">
                     <div className="event-inner">
                       <div className="event-thumb">
-                        <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} data-aos="fade-right"/>
+                       <Link to="https://www.youtube.com/watch?v=9TB7wn-ciCQ&ab_channel=CHARUSAT"> <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} data-aos="fade-right"/></Link>
                       </div>
-                      <div className="event-content" data-aos="fade-right"  data-aos-duration="3000">
+                      {/* <div className="event-content" data-aos="fade-right"  data-aos-duration="3000">
                         <div className="event-date-info">
                           <div className="edi-box">
                             <h4>{val.Date}</h4>
@@ -84,7 +84,7 @@ const Event = () => {
                             )}
                           </ul>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
