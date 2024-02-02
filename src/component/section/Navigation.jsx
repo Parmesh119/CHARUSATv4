@@ -299,10 +299,13 @@ const Header = () => {
             </div>
             <div className="menu-div border-left">
               <div className="menu-d">
-             
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <Link to="assets\files\PHD\PhD_Regulations.pdf" target="_blank" className="menu-link">
+                  <Link
+                    to="assets\files\PHD\PhD_Regulations.pdf"
+                    target="_blank"
+                    className="menu-link"
+                  >
                     General Information
                   </Link>
                 </div>
@@ -364,7 +367,7 @@ const Header = () => {
               <h5 className="menu-head">National</h5>
               <div className="menu-items">
                 <a
-                  href="https://admission2023.charusat.ac.in/"
+                  href="https://admission.charusat.ac.in/"
                   className="menu-link"
                 >
                   Apply Now
@@ -396,7 +399,7 @@ const Header = () => {
               <h5 className="menu-head">International</h5>
               <div className="menu-items">
                 <a
-                  href="https://admission2023.charusat.ac.in/"
+                  href="https://admission.charusat.ac.in/"
                   className="menu-link"
                 >
                   Apply Now
@@ -424,7 +427,7 @@ const Header = () => {
               <h5 className="menu-head">Other</h5>
               <div className="menu-items">
                 <a
-                  href="https://admission2023.charusat.ac.in/"
+                  href="https://admission.charusat.ac.in/"
                   className="menu-link"
                 >
                   Admission Login
@@ -949,13 +952,21 @@ const Header = () => {
                   <Link to="./annual-report" className="menu-link">
                     Annual Report
                   </Link>
-                  <Link to="assets\files\CHARUSAT_Action_Plan.pdf" target="_blank" className="menu-link">
+                  <Link
+                    to="assets\files\CHARUSAT_Action_Plan.pdf"
+                    target="_blank"
+                    className="menu-link"
+                  >
                     Strategic Plan
                   </Link>
                   <Link to="./samaj-gosthi" className="menu-link">
                     Samaj Gosthi
                   </Link>
-                  <Link to="assets\images\map\charusat-map.jpg" target="_blank" className="menu-link">
+                  <Link
+                    to="assets\images\map\charusat-map.jpg"
+                    target="_blank"
+                    className="menu-link"
+                  >
                     Campus Map
                   </Link>
                   <a
@@ -1017,19 +1028,37 @@ const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-              <NavDropdown title="Quick Links" id="basic-nav-dropdown">
-                  <Dropdown.Item  href="./accreditation-and-ranking">Accreditation & Ranking</Dropdown.Item>
-                  <Dropdown.Item href="https://charusatalumni.org">Alumni</Dropdown.Item>
+                <NavDropdown title="Quick Links" id="basic-nav-dropdown">
+                  <Dropdown.Item href="./accreditation-and-ranking">
+                    Accreditation & Ranking
+                  </Dropdown.Item>
+                  <Dropdown.Item href="https://charusatalumni.org">
+                    Alumni
+                  </Dropdown.Item>
                   <Dropdown.Item href="./careers">Careers</Dropdown.Item>
-                  <Dropdown.Item href="./accreditation-and-ranking">NIRF</Dropdown.Item>
+                  <Dropdown.Item href="./accreditation-and-ranking">
+                    NIRF
+                  </Dropdown.Item>
                   <Dropdown.Item href="./placement">Placement</Dropdown.Item>
-                  <Dropdown.Item href="./scholarship">Scholarships</Dropdown.Item>
-                  <Dropdown.Item href="./scholarship">Samaj Scholarships</Dropdown.Item>
-                  <Dropdown.Item href="./student-corner">Student Corner</Dropdown.Item>
-                  <Dropdown.Item href="https://charusat.edu.in:912/UniExamResult/">Exam Result</Dropdown.Item>
-                  <Dropdown.Item href="https://charusat.edu.in:912/FeesPaymentApp/">Pay Fees</Dropdown.Item>
+                  <Dropdown.Item href="./scholarship">
+                    Scholarships
+                  </Dropdown.Item>
+                  <Dropdown.Item href="./scholarship">
+                    Samaj Scholarships
+                  </Dropdown.Item>
+                  <Dropdown.Item href="./student-corner">
+                    Student Corner
+                  </Dropdown.Item>
+                  <Dropdown.Item href="https://charusat.edu.in:912/UniExamResult/">
+                    Exam Result
+                  </Dropdown.Item>
+                  <Dropdown.Item href="https://charusat.edu.in:912/FeesPaymentApp/">
+                    Pay Fees
+                  </Dropdown.Item>
                   <Dropdown.Item href="./contact-us">Contact Us</Dropdown.Item>
-                  <Dropdown.Item href="./contact-us">Support Charusat</Dropdown.Item>
+                  <Dropdown.Item href="./contact-us">
+                    Support Charusat
+                  </Dropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Academics" id="basic-nav-dropdown">
                   <Dropdown>
@@ -1206,7 +1235,7 @@ const Header = () => {
                       National
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://admission2023.charusat.ac.in/">
+                      <Dropdown.Item href="https://admission.charusat.ac.in/">
                         Apply Now
                       </Dropdown.Item>
                       <Dropdown.Item href={AdmissionEligibilityCriteria}>
@@ -1223,7 +1252,7 @@ const Header = () => {
                       International
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://admission2023.charusat.ac.in/">
+                      <Dropdown.Item href="https://admission.charusat.ac.in/">
                         Apply Now
                       </Dropdown.Item>
                       <Dropdown.Item href={EligibilityCriteria}>
@@ -1240,7 +1269,7 @@ const Header = () => {
                       Other
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://admission2023.charusat.ac.in/">
+                      <Dropdown.Item href="https://admission.charusat.ac.in/">
                         Admission Login
                       </Dropdown.Item>
                       <Dropdown.Item href="./admission-reprentatives">
