@@ -138,7 +138,7 @@ export default function Faculties() {
       <div className="course-shape two">
         <img src="assets/images/shape-img/icon/02.png" alt="education" />
       </div>
-      <div className="container">
+      <div className="container py-4">
         <h2 className="title text-center">{title}</h2>
         <div className="section-header">
           <div className="course-filter-group">
