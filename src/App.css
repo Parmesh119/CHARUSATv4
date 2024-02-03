@@ -181,3 +181,9 @@ input:focus{
   right: 1%;
   top: 10px;
 }
+
+@media(max-width:987px){
+  .main-slider1{
+    max-height: 80vh;
+  }
+}

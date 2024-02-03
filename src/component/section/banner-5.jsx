@@ -211,7 +211,7 @@ const BannerFive = () => {
           </SwiperSlide>
         ))}
       </Swiper> */}
-      <Slider autoplay="4000" className="slider-wrapper">
+      <Slider autoplay="4000" className="slider-wrapper main-slider1">
         {content.map((item, index) => (
           <div
             key={index}
