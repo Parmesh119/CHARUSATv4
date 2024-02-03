@@ -1025,7 +1025,7 @@ const Header = () => {
                 />
               </a>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className="btn-toggle1"/>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <NavDropdown title="Quick Links" id="basic-nav-dropdown">
@@ -1573,13 +1573,13 @@ const Header = () => {
                         <Link to="./annual-report">Annual Reports</Link>
                       </Dropdown.Item>
                       <Dropdown.Item>
-                        <Link to="assets\files\CHARUSAT_Action_Plan.pdf">Strategic Plan</Link>
+                        <Link to="assets\files\CHARUSAT_Action_Plan.pdf" >Strategic Plan</Link>
                       </Dropdown.Item>
                       <Dropdown.Item>
                         <Link to="./samaj-gosthi">Samaj Gosthi</Link>
                       </Dropdown.Item>
                       <Dropdown.Item>
-                        <Link to="assets\images\map\charusat-map.jpg" target="_blank">Campus Map</Link>
+                        <Link to="assets\images\map\charusat-map.jpg">Campus Map</Link>
                       </Dropdown.Item>
                       <Dropdown.Item href="https://charusat.ac.in/Downloads/">
                         Downloads

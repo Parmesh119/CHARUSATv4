@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -25,7 +24,7 @@ const eventSliderList = [
     imgAlt: "CREDP image",
     title: "CHARUSAT Rural Education Development Program",
     btnText: "Read More",
-    url: "https://www.charusat.ac.in/credp.php",
+    url: "./credp",
   },
   {
     imgUrl: "assets/images/initiative/ICC.jpg",

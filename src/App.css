@@ -176,5 +176,8 @@ input:focus{
   border: 1px solid black;
 }
 
-
-
+.btn-toggle1{
+  position: absolute;
+  right: 1%;
+  top: 10px;
+}

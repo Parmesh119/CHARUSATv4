@@ -263,8 +263,8 @@ export default function collaboration() {
                   modules={[Autoplay, Navigation]}
                   breakpoints={{
                     0: {
-                      width: 0,
-                      slidesPerView: 5,
+                      width: 340,
+                      slidesPerView: 2,
                     },
                     768: {
                       width: 768,
