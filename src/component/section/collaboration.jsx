@@ -202,7 +202,7 @@ const instructorBottomList = [
 export default function collaboration() {
   return (
     <div>
-      <div className="instructor-section style-3  padding-tb  section-bg-ash">
+      <div className="instructor-section style-3  padding-b  section-bg-ash">
         <div className="container">
           <div className="section-header text-center">
             {/* <span className="subtitle">University</span> */}
@@ -263,8 +263,8 @@ export default function collaboration() {
                   modules={[Autoplay, Navigation]}
                   breakpoints={{
                     0: {
-                      width: 0,
-                      slidesPerView: 5,
+                      width: 340,
+                      slidesPerView: 2,
                     },
                     768: {
                       width: 768,

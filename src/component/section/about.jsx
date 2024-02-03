@@ -113,7 +113,6 @@ const About = () => {
       <div className="student-feedbak-section padding-tb  glance1">
         <div className="container">
           <div className="section-header text-center">
-            <span className="subtitle">&nbsp;</span>
             <h2 className="title">CHARUSAT At Glance</h2>
           </div>
           <div className="section-wrapper">
