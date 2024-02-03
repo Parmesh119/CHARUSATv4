@@ -381,7 +381,7 @@ const Header = () => {
                   Eligibility Criteria
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view"
+                  href="/coming-soon"
                   className="menu-link"
                 >
                   Fees
@@ -411,7 +411,7 @@ const Header = () => {
                 >
                   Eligibility Criteria
                 </a>
-                <a href={InterNationalFees} className="menu-link">
+                <a href="/coming-soon" className="menu-link">
                   Fees
                 </a>
                 <a href="#" className="menu-link">
@@ -1241,7 +1241,7 @@ const Header = () => {
                       <Dropdown.Item href={AdmissionEligibilityCriteria}>
                         Eligibility criteria
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view">
+                      <Dropdown.Item href="/coming-soon">
                         Fees
                       </Dropdown.Item>
                       <Dropdown.Item>+91 8905500500</Dropdown.Item>
@@ -1258,7 +1258,7 @@ const Header = () => {
                       <Dropdown.Item href={EligibilityCriteria}>
                         Eligibility criteria
                       </Dropdown.Item>
-                      <Dropdown.Item href={InterNationalFees}>
+                      <Dropdown.Item href="/coming-soon">
                         Fees
                       </Dropdown.Item>
                       <Dropdown.Item>+91 917370164</Dropdown.Item>
