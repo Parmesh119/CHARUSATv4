@@ -165,7 +165,7 @@ const Header = () => {
                 <h5 className="menu-head">Learn Online</h5>
                 <div className="menu-items">
                   <a
-                    href="https://charuvidya.charusat.ac.in"
+                    href="http://ILMS.CHARUSAT.ac.in"
                     className="menu-link"
                   >
                     CharuVidya
@@ -1066,7 +1066,7 @@ const Header = () => {
                       Learn Online
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://charuvidya.charusat.ac.in/">
+                      <Dropdown.Item href="http://ILMS.CHARUSAT.ac.in">
                         CharuVidya
                       </Dropdown.Item>
                       {/* <Dropdown.Item href="http://172.16.11.116/LocalGuru/">
