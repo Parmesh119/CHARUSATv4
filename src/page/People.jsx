@@ -533,27 +533,27 @@ const CourseData = [
     ],
     id: 33,
   },
-  {
-    imgUrl: "assets/images/People/Amit_Nayak.png",
-    imgAlt: "Dr. Amit Nayak",
-    cate: ["DeansNPrincipals"],
-    title: "Dr. Amit Nayak",
-    author: "assets/images/People/Amit_Nayak.png",
-    authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
-      <br />,
-      <strong>
-        Principal :
-      </strong>,
-      " Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
-      <br />,
-      <strong>Email:</strong>,
-      "principal.depstar@charusat.ac.in",
-    ],
-    id: 34,
-  },
+  // {
+  //   imgUrl: "assets/images/People/Amit_Nayak.png",
+  //   imgAlt: "Dr. Amit Nayak",
+  //   cate: ["DeansNPrincipals"],
+  //   title: "Dr. Amit Nayak",
+  //   author: "assets/images/People/Amit_Nayak.png",
+  //   authorName: [
+  //     <strong>
+  //       Ph.D.
+  //     </strong>,
+  //     <br />,
+  //     <strong>
+  //       Principal :
+  //     </strong>,
+  //     " Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
+  //     <br />,
+  //     <strong>Email:</strong>,
+  //     "principal.depstar@charusat.ac.in",
+  //   ],
+  //   id: 34,
+  // },
   {
     imgUrl:
       "https://charusat.ac.in/wp-content/uploads/Deans_Principal/sanskruti_patel.jpg",
@@ -737,25 +737,25 @@ const CourseData = [
     ],
     id: 27,
   },
-  {
-    imgUrl: "assets/images/People/PRO.png",
-    imgAlt: "Dilip Gosai",
-    cate: ["University Officers"],
-    title: "Dr. Dilip Gosai",
-    author: "assets/images/course/author/03.jpg",
-    authorName: [
-      "Corporate Communication Officer",
-      <br />,
-      <strong>
-        Contact For:
-      </strong>,
-      " School Visit, Sponsorships, Workshops, Seminars, News and General Inquiries, etc.",
-      <br />,
-      <strong>Email:</strong>,
-      "dilipgosai.pr@charusat.ac.in",
-    ],
-    id: 28,
-  },
+  // {
+  //   imgUrl: "assets/images/People/PRO.png",
+  //   imgAlt: "Dilip Gosai",
+  //   cate: ["University Officers"],
+  //   title: "Dr. Dilip Gosai",
+  //   author: "assets/images/course/author/03.jpg",
+  //   authorName: [
+  //     "Corporate Communication Officer",
+  //     <br />,
+  //     <strong>
+  //       Contact For:
+  //     </strong>,
+  //     " School Visit, Sponsorships, Workshops, Seminars, News and General Inquiries, etc.",
+  //     <br />,
+  //     <strong>Email:</strong>,
+  //     "dilipgosai.pr@charusat.ac.in",
+  //   ],
+  //   id: 28,
+  // },
   {
     imgUrl: "assets/images/People/AshwinMakwana.png",
     imgAlt: "Ashwin Makwana",

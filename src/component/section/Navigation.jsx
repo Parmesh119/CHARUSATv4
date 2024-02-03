@@ -1454,7 +1454,10 @@ const Header = () => {
                   </Dropdown>
                 </NavDropdown>
                 <NavDropdown title="IQAC" id="basic-nav-dropdown">
-                  <Dropdown href="https://iqac.charusat.ac.in/0">IQAC</Dropdown>
+                  <Dropdown.Item href="https://iqac.charusat.ac.in/0">IQAC</Dropdown.Item>
+                </NavDropdown>
+                <NavDropdown title="Online Programmes" id="basic-nav-dropdown">
+                  <Dropdown.Item href="https://charusat.online/">Online Programmes</Dropdown.Item>
                 </NavDropdown>
                 {/*  */}
                 <NavDropdown title="Know CHARUSAT" id="basic-nav-dropdown">
