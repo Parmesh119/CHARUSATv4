@@ -165,7 +165,7 @@ const Header = () => {
                 <h5 className="menu-head">Learn Online</h5>
                 <div className="menu-items">
                   <a
-                    href="https://charuvidya.charusat.ac.in"
+                    href="http://ILMS.CHARUSAT.ac.in"
                     className="menu-link"
                   >
                     CharuVidya
@@ -381,7 +381,7 @@ const Header = () => {
                   Eligibility Criteria
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view"
+                  href="/coming-soon"
                   className="menu-link"
                 >
                   Fees
@@ -411,7 +411,7 @@ const Header = () => {
                 >
                   Eligibility Criteria
                 </a>
-                <a href={InterNationalFees} className="menu-link">
+                <a href="/coming-soon" className="menu-link">
                   Fees
                 </a>
                 <a href="#" className="menu-link">
@@ -1066,7 +1066,7 @@ const Header = () => {
                       Learn Online
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://charuvidya.charusat.ac.in/">
+                      <Dropdown.Item href="http://ILMS.CHARUSAT.ac.in">
                         CharuVidya
                       </Dropdown.Item>
                       {/* <Dropdown.Item href="http://172.16.11.116/LocalGuru/">
@@ -1241,7 +1241,7 @@ const Header = () => {
                       <Dropdown.Item href={AdmissionEligibilityCriteria}>
                         Eligibility criteria
                       </Dropdown.Item>
-                      <Dropdown.Item href="https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view">
+                      <Dropdown.Item href="/coming-soon">
                         Fees
                       </Dropdown.Item>
                       <Dropdown.Item>+91 8905500500</Dropdown.Item>
@@ -1258,7 +1258,7 @@ const Header = () => {
                       <Dropdown.Item href={EligibilityCriteria}>
                         Eligibility criteria
                       </Dropdown.Item>
-                      <Dropdown.Item href={InterNationalFees}>
+                      <Dropdown.Item href="/coming-soon">
                         Fees
                       </Dropdown.Item>
                       <Dropdown.Item>+91 917370164</Dropdown.Item>
@@ -1454,7 +1454,10 @@ const Header = () => {
                   </Dropdown>
                 </NavDropdown>
                 <NavDropdown title="IQAC" id="basic-nav-dropdown">
-                  <Dropdown href="https://iqac.charusat.ac.in/0">IQAC</Dropdown>
+                  <Dropdown.Item href="https://iqac.charusat.ac.in/0">IQAC</Dropdown.Item>
+                </NavDropdown>
+                <NavDropdown title="Online Programmes" id="basic-nav-dropdown">
+                  <Dropdown.Item href="https://charusat.online/">Online Programmes</Dropdown.Item>
                 </NavDropdown>
                 {/*  */}
                 <NavDropdown title="Know CHARUSAT" id="basic-nav-dropdown">

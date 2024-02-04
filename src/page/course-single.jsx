@@ -1030,7 +1030,7 @@ const Transport = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-12">
 
-            <span style={{
+            <span className="search_handle" style={{
                 display: "flex",
                 flexDirection: "row",
               }}>

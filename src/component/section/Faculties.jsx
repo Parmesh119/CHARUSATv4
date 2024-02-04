@@ -21,7 +21,7 @@ const CourseData = [
     imgUrl: "assets/images/institute/DEPSTAR.jpg",
     imgAlt: "Depstar image",
     cate: "Engineering",
-    programs: "B. Tech, M. Tech, Ph. D.",
+    programs: "B. Tech,Ph. D.",
     title: "Devang Patel Institute of Advance Technology and Research",
     link: "https://www.charusat.ac.in/depstar/",
     author: "assets/images/course/author/01.jpg",

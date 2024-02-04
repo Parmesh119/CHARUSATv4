@@ -9,12 +9,15 @@ const quickTitle = "Quick Links";
 const googleMapTitle = "Map";
 // const tweetTitle = "Recent Tweets";
 const year = new Date().getFullYear();
-
-const addressList = [
+const addressList1=
   {
     iconName: "icofont-google-map",
-    text: "CHARUSAT Campus, Off. Nadiad-Petlad Highway, Changa 388 421",
-  },
+    text1: "CHARUSAT Campus",
+    text2: "Off. Nadiad-Petlad Highway, Changa 388 421",
+  }
+
+const addressList = [
+  
   {
     iconName: "icofont-phone",
     text: "+91 2697 265011/12",
@@ -165,6 +168,14 @@ const FooterThree = () => {
                         <div className="content">
                           {/* <p>{desc}</p> */}
                           <ul className="lab-ul office-address ">
+                          <li style={{ color: "#fff" }}>
+                                <i
+                                  className={addressList1.iconName}
+                                  style={{ color: "#fff" }}
+                                ></i>
+                                {addressList1.text1} <br />
+                                {addressList1.text2}
+                              </li>
                             {addressList.map((val, i) => (
                               <li key={i} style={{ color: "#fff" }}>
                                 <i
