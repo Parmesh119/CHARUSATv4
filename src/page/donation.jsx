@@ -1226,10 +1226,10 @@ const Donation = () => {
             </div>
 
             <Contact
-              title="Donation Contact"
-              name="Mr. Shreyas Dalal"
-              email="shreyasdalal.adm@charusat.ac.in"
-              phone="+91 9327014785"
+              title="Contact"
+              name="Mr. Kruten Patel"
+              email="krutenpatel.adm@charusat.ac.in"
+              phone="+91 9173701614"
             />
           </div>
         </div>

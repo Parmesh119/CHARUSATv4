@@ -168,7 +168,7 @@ const Header = () => {
                     href="http://ILMS.CHARUSAT.ac.in"
                     className="menu-link"
                   >
-                    CharuVidya
+                    iLMS
                   </a>
                   {/* <a
                     href="http://172.16.11.116/LocalGuru/"
@@ -380,12 +380,7 @@ const Header = () => {
                 >
                   Eligibility Criteria
                 </a>
-                <a
-                  href="/coming-soon"
-                  className="menu-link"
-                >
-                  Fees
-                </a>
+                
                 <a href="#" className="menu-link">
                   <i
                     class="icofont-brand-whatsapp"
@@ -411,9 +406,7 @@ const Header = () => {
                 >
                   Eligibility Criteria
                 </a>
-                <a href="/coming-soon" className="menu-link">
-                  Fees
-                </a>
+                
                 <a href="#" className="menu-link">
                   <i
                     class="icofont-brand-whatsapp"
@@ -1067,7 +1060,7 @@ const Header = () => {
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
                       <Dropdown.Item href="http://ILMS.CHARUSAT.ac.in">
-                        CharuVidya
+                      iLMS
                       </Dropdown.Item>
                       {/* <Dropdown.Item href="http://172.16.11.116/LocalGuru/">
                         NPTEL Resources (Intranet)
@@ -1241,9 +1234,7 @@ const Header = () => {
                       <Dropdown.Item href={AdmissionEligibilityCriteria}>
                         Eligibility criteria
                       </Dropdown.Item>
-                      <Dropdown.Item href="/coming-soon">
-                        Fees
-                      </Dropdown.Item>
+                      
                       <Dropdown.Item>+91 8905500500</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
@@ -1258,9 +1249,7 @@ const Header = () => {
                       <Dropdown.Item href={EligibilityCriteria}>
                         Eligibility criteria
                       </Dropdown.Item>
-                      <Dropdown.Item href="/coming-soon">
-                        Fees
-                      </Dropdown.Item>
+                      
                       <Dropdown.Item>+91 917370164</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>

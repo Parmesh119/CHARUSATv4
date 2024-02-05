@@ -703,21 +703,7 @@ const CourseData = [
     ],
     id: 25,
   },
-  // {
-  //   imgUrl: "assets/images/People/HSPatel.png",
-  //   imgAlt: "Hasmukh Patel",
-  //   cate: ["University Officers"],
-  //   title: "Mr. Hasmukh Patel",
-  //   author: "assets/images/course/author/03.jpg",
-  //   authorName: [
-  //     "Deputy Registrar (Admissions)",
-  //     <br />,
-  //     "Contact for: Admissions, Board Meetings, General Affairs, Hostels",
-  //     <br />,
-  //     "hasmukhpatel.adm@charusat.ac.in",
-  //   ],
-  //   id: 26,
-  // },
+ 
   {
     imgUrl: "assets/images/People/BhavdipPatel.png",
     imgAlt: "Bhavdip Patel",
