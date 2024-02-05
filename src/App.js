@@ -55,7 +55,9 @@ import About_us from "./page/About_us";
 import AboutUs from "./page/About_us";
 import ProvostDesk from "./page/Provost-desk";
 import PresidentDesk from "./page/President-desk";
-import People from "./page/People";
+import Governingbody from "./page/Governing-body";
+import BOM from "./page/BOM.jsx";
+import Deans from "./page/Deans-Principal";
 // import Footer from "./component/layout/footer-3";
 import CDPC from "./page/cdpc";
 import Ethics from "./page/ethics";
@@ -145,7 +147,9 @@ function App() {
         <Route path="/provost-desk" element={<ProvostDesk />} /> //Helmet done
         <Route path="/president-desk" element={<PresidentDesk />} /> //Helmet
         done
-        <Route path="/associates" element={<People />} />
+        <Route path="/governing-body" element={<Governingbody />} />
+        <Route path="/board-of-management" element={<BOM />} />
+        <Route path="/deans&principal" element={<Deans />} />
         //Helmet done
         <Route
           path="/accreditation-and-ranking"

@@ -807,13 +807,13 @@ const Header = () => {
                   <Link to="./convocations" className="menu-link">
                     Convocations
                   </Link>
-                  <Link to="./associates"  className="menu-link">
+                  <Link to="./governing-body"  className="menu-link">
                     Governing Body
                   </Link>
-                  <Link to="./associates" className="menu-link">
+                  <Link to="./board-of-management" className="menu-link">
                     Board of Management
                   </Link>
-                  <Link to="./associates" className="menu-link">
+                  <Link to="./deans&principal" className="menu-link">
                     Deans, Principals & Heads
                   </Link>
                   <Link to="./university-officers" className="menu-link">
@@ -1476,16 +1476,16 @@ const Header = () => {
                       <Dropdown.Item href="./convocations">
                         Convocations
                       </Dropdown.Item>
-                      <Dropdown.Item href="./associates">
+                      <Dropdown.Item href="./governing-body">
                         Governing Body
                       </Dropdown.Item>
-                      <Dropdown.Item href="./associates">
+                      <Dropdown.Item href="./board-of-management">
                         Board of Management
                       </Dropdown.Item>
-                      <Dropdown.Item href="./associates">
+                      <Dropdown.Item href="./deans&principal">
                         Deans, Principals & Heads
                       </Dropdown.Item>
-                      <Dropdown.Item href="./associates">
+                      <Dropdown.Item href="./university-officers">
                         University Officers
                       </Dropdown.Item>
                     </Dropdown.Menu>
