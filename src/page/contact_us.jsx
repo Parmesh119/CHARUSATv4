@@ -109,9 +109,9 @@ Work with color and Gradients and Grids</li>
                           <div className="row">
                             <div className="col-lg">
                               <Contact
-                                name="Mr. Hashmukh Patel"
-                                email="hasmukhpatel.adm@charusat.ac.in"
-                                phone="+91-2697-265004"
+                                name="Dr. Atul Patel"
+                                email="coe.exam@charusat.ac.in"
+                                phone="+91-2697-265017"
                               />
                             </div>
                           </div>
