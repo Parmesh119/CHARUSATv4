@@ -1,9 +1,9 @@
 import { Component, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "../assets/css/people.css";
 import { Helmet } from "react-helmet";
 
-const title = "Associates";
+const title = "";
 
 const CourseData = [
   {
@@ -22,7 +22,7 @@ const CourseData = [
       <strong>Former Member of Parliament:</strong>,
       "Rajya Sabha",
       <br />,
-      <strong>A Renowned Technocrat</strong>,
+     
     ],
     id: 1,
   },
@@ -768,8 +768,11 @@ const CourseData = [
 ];
 
 export default function People() {
+  // const params = useParams()
   const [items, setItems] = useState(CourseData);
   const [active, setActive] = useState("");
+
+  // console.log(params)
 
   const filterItem = async (categItem) => {
     // const updateItems = CourseData.filter((curElem) => {
@@ -778,6 +781,7 @@ export default function People() {
 
     // });
     console.log("items:" + categItem);
+    
     setActive(categItem);
     const updateItems = [];
     CourseData.forEach(async (element) => {
@@ -841,13 +845,7 @@ export default function People() {
               >
                 Deans & Principal
               </li>
-              <li
-                className={`${active === "University Officers" ? "active" : ""
-                  }`}
-                onClick={() => filterItem("University Officers")}
-              >
-                University Officers
-              </li>
+            
             </ul>
           </div>
         </div>

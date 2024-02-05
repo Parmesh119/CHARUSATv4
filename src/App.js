@@ -71,7 +71,8 @@ import ComingSoon from "./page/ComingSoon";
 import Edic from "./page/edic";
 import StudentCorner from "./page/student-corner";
 import PhDPrograms from "./page/ph-d-programs";
-import SamajGosthi from "./page/samajGosthi"
+import SamajGosthi from "./page/samajGosthi";
+import Officers from "./page/officers";
 import AnnualReport from "./page/annual-report";
 
 import { Helmet } from "react-helmet";
@@ -137,6 +138,7 @@ function App() {
         <Route path="/cdpc" element={<CDPC />} /> //Helmet done
         <Route path="/ethics" element={<Ethics />} />
         <Route path="/research" element={<ResearchPage />} />
+        <Route path="/university-officers" element={<Officers />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/student-development-initiatives" element={<SDI />} />{" "}
         //Helmet done

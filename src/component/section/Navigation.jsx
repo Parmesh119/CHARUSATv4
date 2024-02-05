@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../../assets/css/navigation.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import Scroll from "react-scroll";
+import Course from "../../page/course-single"
 const ScrollLink = Scroll.ScrollLink;
 
 const Header = () => {
@@ -205,8 +206,9 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Undergraduate Studies</h5>
               <div className="menu-items">
-                <Link to="./course-single#1406" className="menu-link">
+                <Link to="./course-single#1406" id="1406" className="menu-link">
                   B.Tech
+                   
                 </Link>
                 <Link to="./course-single#2401" className="menu-link">
                   BCA
@@ -805,7 +807,7 @@ const Header = () => {
                   <Link to="./convocations" className="menu-link">
                     Convocations
                   </Link>
-                  <Link to="./associates" className="menu-link">
+                  <Link to="./associates"  className="menu-link">
                     Governing Body
                   </Link>
                   <Link to="./associates" className="menu-link">
@@ -814,7 +816,7 @@ const Header = () => {
                   <Link to="./associates" className="menu-link">
                     Deans, Principals & Heads
                   </Link>
-                  <Link to="./associates" className="menu-link">
+                  <Link to="./university-officers" className="menu-link">
                     University Officers
                   </Link>
                   <Link to="./journey" className="menu-link">

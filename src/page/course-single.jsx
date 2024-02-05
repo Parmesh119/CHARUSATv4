@@ -49,8 +49,8 @@ const CourseList = [
     Institute:
       "Smt.Chandaben Mohanbhai Patel Institute of Computer Application(CMPICA)",
     CourseDuration: "03 Years",
-    Intake: "180",
-    Fees: "₹ 40,000/-",
+    Intake: "240",
+    Fees: "₹ 60,000/-",
     Eligibility:
       "CBSE/ISCE/State Board/Commerce Stream with minimum 50% required and Science Stream minimum 45% required, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -431,7 +431,7 @@ const CourseList = [
       "Smt.Chandaben Mohanbhai Patel Institute of Computer Application (CMPICA)",
     CourseDuration: "03 Years",
     Intake: "120",
-    Fees: "₹ 40,000/-",
+    Fees: "₹ 55,000/-",
     Eligibility:
       "CBSE/ISCE/State Board/Commerce Stream with minimum 50% required and Science Stream minimum 45% required, Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -450,7 +450,7 @@ const CourseList = [
       "Smt.Chandaben Mohanbhai Patel Institute of Computer Application (CMPICA)",
     CourseDuration: "02 Years",
     Intake: "30",
-    Fees: "₹ 60,000/-",
+    Fees: "₹ 75,000/-",
     Eligibility:
       "Any Graduate with 50% marks in BCA, B.Sc (IT), B.Tech Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -682,7 +682,7 @@ const CourseList = [
     faculty: "Faculty of Technology and Engineering",
     Institute: "Chandubhai S. Patel Insitute of Technology(CSPIT)",
     CourseDuration: "04 Years",
-    Intake: "90",
+    Intake: "30",
     Fees: "₹ 1,28,000/-",
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
@@ -724,7 +724,7 @@ const CourseList = [
       "Chandubhai S. Patel Insitute of Technology(CSPIT) | Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
     CourseDuration: "04 Years",
     Intake: "CSPIT-60 | DEPSTAR-120",
-    Fees: "CSPIT-₹ 1,28,000/- | DEPSTAR-₹ 98,000/-",
+    Fees: "CSPIT-₹ 1,35,000/- | DEPSTAR-₹ 98,000/-",
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -744,10 +744,10 @@ const CourseList = [
       "Bachelor of Technology (Computer Science and Engineering Artificial Intelligence and Machine Learning)",
     faculty: "Faculty of Technology and Engineering",
     Institute:
-      "Chandubhai S. Patel Insitute of Technology(CSPIT) | Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
+      "Chandubhai S. Patel Insitute of Technology(CSPIT)",
     CourseDuration: "04 Years",
-    Intake: "CSPIT-60 | DEPSTAR-120",
-    Fees: "CSPIT-₹ 1,35,000/- | DEPSTAR-₹ 1,0,000/-",
+    Intake: "CSPIT-60",
+    Fees: "CSPIT-₹ 1,35,000/",
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -756,9 +756,9 @@ const CourseList = [
     brochureLink:
       "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit CSPIT",
-    websiteLink: "https://charusat.ac.in/cspit/ce/",
-    txtBtn4: "Visit DEPSTAR",
-    linkbtn4: "https://charusat.ac.in/depstar/cse/",
+    websiteLink: "/coming-soon",
+    txtBtn4: "",
+    linkbtn4: "",
     showLinkBtn4: true,
     programCode: "14075",
   },
@@ -786,7 +786,7 @@ const CourseList = [
     faculty: "Faculty of Technology and Engineering",
     Institute: "Chandubhai S. Patel Insitute of Technology(CSPIT)",
     CourseDuration: "04 Years",
-    Intake: "60",
+    Intake: "90",
     Fees: "₹ 1,28,000/-",
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
@@ -806,7 +806,7 @@ const CourseList = [
       "Chandubhai S. Patel Insitute of Technology(CSPIT) | Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
     CourseDuration: "04 Years",
     Intake: "CSPIT-120 | DEPSTAR-60",
-    Fees: "CSPIT-₹ 1,28,000/- | DEPSTAR-₹ 98,000/-",
+    Fees: "CSPIT-₹ 1,35,000/- | DEPSTAR-₹ 98,000/-",
     Eligibility:
       "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
@@ -927,22 +927,22 @@ const CourseList = [
     websiteLink: "https://charusat.ac.in/cspit/me/",
     programCode: "1507",
   },
-  // {
-  //   courseName:"Master of Technology (Thermal Engineering)",
-  //   faculty:"Faculty of Technology and Engineering",
-  //   Institute:"Chandubhai S. Patel Insitute of Technology(CSPIT)",
-  //   CourseDuration: "02 Years",
-  //   Intake:"18",
-  //   Fees:"Rs 1,59,000/-",
-  //   Eligibility:"BE/B.Tech in relevant discipline with minimum 50 % and should have applied/appeared in GATE/Non-GATE Entrance Exam Any student within/outside Gujarat",
-  //   syllabusBtn:"View Syllabus",
-  //   syllabusLink:"https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/ME/",
-  //   brochureBtn:"Download Brochure",
-  //   brochureLink:"#",
-  //   websiteBtn:"Visit Website",
-  //   websiteLink:"https://charusat.ac.in/cspit/me/",
-  //   programCode:"",
-  // },
+  {
+    courseName:"Master of Technology (Thermal Engineering)",
+    faculty:"Faculty of Technology and Engineering",
+    Institute:"Chandubhai S. Patel Insitute of Technology(CSPIT)",
+    CourseDuration: "02 Years",
+    Intake:"18",
+    Fees:"Rs 1,59,000/-",
+    Eligibility:"BE/B.Tech in relevant discipline with minimum 50 % and should have applied/appeared in GATE/Non-GATE Entrance Exam Any student within/outside Gujarat",
+    syllabusBtn:"View Syllabus",
+    syllabusLink:"https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/ME/",
+    brochureBtn:"Download Brochure",
+    brochureLink:"#",
+    websiteBtn:"Visit Website",
+    websiteLink:"https://charusat.ac.in/cspit/me/",
+    programCode:"",
+  },
   {
     courseName:
       "Post Graduate Diploma in Medical Laboratory Technology (PGDMLT)",
@@ -1017,7 +1017,7 @@ const CourseList = [
   },
 ];
 
-const Transport = () => {
+const Transport = (props) => {
 
   const [search, setSearch] = useState('')
 
