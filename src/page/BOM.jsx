@@ -192,7 +192,7 @@ export default function People() {
     await setItems(updateItems);
   };
   return (
-    <div className="course-section style-3 padding-b">
+    <div className="course-section style-3 padding-b people_top">
       <Helmet>
         import {Helmet} from "react-helmet";<title>CHARUSAT People</title>
         <meta http-equiv="Content-Type" content=" text/html; charset=utf-8" />

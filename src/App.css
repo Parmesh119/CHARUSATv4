@@ -188,9 +188,12 @@ input:focus{
   }
 }
 
-@media(max-width:987px){
+@media(max-width:988px){
   .search_handle{
     margin-top:80px
+  }
+  .people_top{
+    margin-top: 80px;
   }
 }
 
