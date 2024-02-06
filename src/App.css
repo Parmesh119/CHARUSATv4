@@ -196,4 +196,9 @@ input:focus{
     margin-top: 80px;
   }
 }
+@media(max-width:671px){
+  .vision-main{
+    margin-top:-120px
+  }
+}
 
