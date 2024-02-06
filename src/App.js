@@ -55,7 +55,9 @@ import About_us from "./page/About_us";
 import AboutUs from "./page/About_us";
 import ProvostDesk from "./page/Provost-desk";
 import PresidentDesk from "./page/President-desk";
-import People from "./page/People";
+import Governingbody from "./page/Governing-body";
+import BOM from "./page/BOM.jsx";
+import Deans from "./page/Deans-Principal";
 // import Footer from "./component/layout/footer-3";
 import CDPC from "./page/cdpc";
 import Ethics from "./page/ethics";
@@ -71,7 +73,8 @@ import ComingSoon from "./page/ComingSoon";
 import Edic from "./page/edic";
 import StudentCorner from "./page/student-corner";
 import PhDPrograms from "./page/ph-d-programs";
-import SamajGosthi from "./page/samajGosthi"
+import SamajGosthi from "./page/samajGosthi";
+import Officers from "./page/officers";
 import AnnualReport from "./page/annual-report";
 
 import { Helmet } from "react-helmet";
@@ -137,13 +140,16 @@ function App() {
         <Route path="/cdpc" element={<CDPC />} /> //Helmet done
         <Route path="/ethics" element={<Ethics />} />
         <Route path="/research" element={<ResearchPage />} />
+        <Route path="/university-officers" element={<Officers />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/student-development-initiatives" element={<SDI />} />{" "}
         //Helmet done
         <Route path="/provost-desk" element={<ProvostDesk />} /> //Helmet done
         <Route path="/president-desk" element={<PresidentDesk />} /> //Helmet
         done
-        <Route path="/associates" element={<People />} />
+        <Route path="/governing-body" element={<Governingbody />} />
+        <Route path="/board-of-management" element={<BOM />} />
+        <Route path="/deans&principal" element={<Deans />} />
         //Helmet done
         <Route
           path="/accreditation-and-ranking"
