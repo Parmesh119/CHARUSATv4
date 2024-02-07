@@ -138,6 +138,14 @@ const footerbottomList = [
 ];
 
 const FooterThree = () => {
+  const scrollToTop = () =>{ 
+    window.scrollTo({ 
+      top: 0,  
+      behavior: 'smooth'
+      /* you can also use 'auto' behaviour 
+         in place of 'smooth' */
+    }); 
+  }; 
   return (
     <>
       <div className="news-footer-wrap grdnt-bg-custom">
@@ -297,6 +305,7 @@ const FooterThree = () => {
                 <p>
                   &copy; {year} <Link to="/">C H A R U S A T</Link>{" "}
                 </p>
+                
                 {/* <div className="footer-bottom-list">
                   {footerbottomList.map((val, i) => (
                     <a href={val.link} key={i} target="_blank" rel="noreferrer">
