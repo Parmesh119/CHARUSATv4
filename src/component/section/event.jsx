@@ -8,29 +8,28 @@ const desc = "";
 const eventListOne = [
  
   {
-    imgUrl: "assets/images/Foundation_Day.jpg",
+    imgUrl: "assets/images/event/event1.png",
     imgAlt: "24th Foundation Day Celebrations",
     Date: "03",
     MonthYear: "FEB 2024",
     link: "https://www.youtube.com/watch?v=9TB7wn-ciCQ&ab_channel=CHARUSAT",
     openInNewTab: true,
-    title:
-      "24th Foundation Day Celebrations",
+    title:"National Conference on “Empowering Comprehensive Midwifery:Role in Health Care Education,Practice and Research”",
     Time: "",
-    Place: " CHARUSAT",
+    Place: "MTIN/CHARUSAT",
   },
 ];
 
 const eventListTwo = [
   {
-    Date: "03",
-    MonthYear: "FEB 2024",
+    Date: "6 & 7",
+    MonthYear: "March 2024",
     link: "https://www.youtube.com/watch?v=9TB7wn-ciCQ&ab_channel=CHARUSAT",
     openInNewTab: true,
     title:
-      "24th Foundation Day Celebrations",
+      "National Conference on “Empowering Comprehensive Midwifery:Role in Health Care Education,Practice and Research”",
     Time: "",
-    Place: " CHARUSAT",
+    Place: "MTIN/CHARUSAT",
   }
 ];
 
@@ -124,7 +123,11 @@ const Event = () => {
                             ) : (
                               <span></span>
                             )}
+                           
                           </ul>
+                          <div className="link-1">
+                          <Link target='_blank' to="https://charusat.ac.in/files/MTIN/OBG_MTIN_2024_Info.pdf" className='btn btn-danger text-white'>Information</Link>
+                          <Link target='_blank' to="https://charusat.ac.in/files/MTIN/OBG_MTIN_2024_Schedule.pdf" className='btn btn-danger text-white'>Schedule</Link></div>
                         </div>
                       </div>
                     </div>
