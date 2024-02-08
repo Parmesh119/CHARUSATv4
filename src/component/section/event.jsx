@@ -1,12 +1,11 @@
-import conferenceOnEthicsReviewInHealthResearch from '../../files/event/Conference on Ethics Review in Health Research.pdf'
-import certifcateCourseOnRProgrammingForBeginners from '../../files/event/Brochure_RProgramming.pdf'
-import { Link } from 'react-router-dom';
+import conferenceOnEthicsReviewInHealthResearch from "../../files/event/Conference on Ethics Review in Health Research.pdf";
+import certifcateCourseOnRProgrammingForBeginners from "../../files/event/Brochure_RProgramming.pdf";
+import { Link } from "react-router-dom";
 const subTitle = "Don’t Miss the Day";
 const title = "Announcements";
 const desc = "";
 
 const eventListOne = [
- 
   {
     imgUrl: "assets/images/event/event1.png",
     imgAlt: "24th Foundation Day Celebrations",
@@ -14,7 +13,8 @@ const eventListOne = [
     MonthYear: "FEB 2024",
     link: "https://www.youtube.com/watch?v=9TB7wn-ciCQ&ab_channel=CHARUSAT",
     openInNewTab: true,
-    title:"National Conference on “Empowering Comprehensive Midwifery:Role in Health Care Education,Practice and Research”",
+    title:
+      "National Conference on “Empowering Comprehensive Midwifery:Role in Health Care Education,Practice and Research”",
     Time: "",
     Place: "MTIN/CHARUSAT",
   },
@@ -30,7 +30,7 @@ const eventListTwo = [
       "National Conference on “Empowering Comprehensive Midwifery:Role in Health Care Education,Practice and Research”",
     Time: "",
     Place: "MTIN/CHARUSAT",
-  }
+  },
 ];
 
 const Event = () => {
@@ -50,7 +50,14 @@ const Event = () => {
                   <div className="event-item">
                     <div className="event-inner">
                       <div className="event-thumb">
-                       <Link to="https://www.youtube.com/watch?v=9TB7wn-ciCQ&ab_channel=CHARUSAT"> <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} data-aos="fade-right"/></Link>
+                        <Link to="https://charusat.ac.in/files/MTIN/OBG_MTIN_2024_Info.pdf">
+                          {" "}
+                          <img
+                            src={`${val.imgUrl}`}
+                            alt={`${val.imgAlt}`}
+                            data-aos="fade-right"
+                          />
+                        </Link>
                       </div>
                       {/* <div className="event-content" data-aos="fade-right"  data-aos-duration="3000">
                         <div className="event-date-info">
@@ -123,11 +130,23 @@ const Event = () => {
                             ) : (
                               <span></span>
                             )}
-                           
                           </ul>
                           <div className="link-1">
-                          <Link target='_blank' to="https://charusat.ac.in/files/MTIN/OBG_MTIN_2024_Info.pdf" className='btn btn-danger text-white'>Information</Link>
-                          <Link target='_blank' to="https://charusat.ac.in/files/MTIN/OBG_MTIN_2024_Schedule.pdf" className='btn btn-danger text-white'>Schedule</Link></div>
+                            <Link
+                              target="_blank"
+                              to="https://charusat.ac.in/files/MTIN/OBG_MTIN_2024_Info.pdf"
+                              className="btn btn-danger text-white"
+                            >
+                              Information
+                            </Link>
+                            <Link
+                              target="_blank"
+                              to="https://charusat.ac.in/files/MTIN/OBG_MTIN_2024_Schedule.pdf"
+                              className="btn btn-danger text-white"
+                            >
+                              Schedule
+                            </Link>
+                          </div>
                         </div>
                       </div>
                     </div>
