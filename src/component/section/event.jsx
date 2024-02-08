@@ -50,7 +50,10 @@ const Event = () => {
                   <div className="event-item">
                     <div className="event-inner">
                       <div className="event-thumb">
-                        <Link to="https://charusat.ac.in/files/MTIN/OBG_MTIN_2024_Info.pdf">
+                        <Link
+                          to="https://charusat.ac.in/files/MTIN/OBG_MTIN_2024_Info.pdf"
+                          target="_blank"
+                        >
                           {" "}
                           <img
                             src={`${val.imgUrl}`}
