@@ -30,7 +30,7 @@ const eventListTwo = [
       "National Conference on “Empowering Comprehensive Midwifery:Role in Health Care Education,Practice and Research”",
     Time: "",
     Place: "MTIN/CHARUSAT",
-  },
+  }
 ];
 
 const Event = () => {
@@ -155,6 +155,42 @@ const Event = () => {
                     </div>
                   </div>
                 ))}
+                <div className="event-item">
+                    <div className="event-inner">
+                      <div className="event-content" data-aos="fade-left">
+                        <div className="event-date-info">
+                          <div className="edi-box">
+                            <h4>17th</h4>
+                            <p>FEB 2024</p>
+                          </div>
+                        </div>
+                        <div className="event-content-info">
+                          <a href="">
+                            <h5>Science Manthan 2024</h5>
+                          </a>
+                          <ul className="lab-ul">
+                            
+                            
+                              <li>
+                                <i className="icofont-google-map"></i>
+                                CHARUSAT
+                              </li>
+                           
+                          </ul>
+                          <div className="link-1">
+                            <Link
+                              target="_blank"
+                              to="assets/files/event/SM_2024_A3.pdf"
+                              className="btn btn-danger text-white"
+                            >
+                              Brochure
+                            </Link>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
