@@ -8,10 +8,10 @@ const desc = "";
 const eventListOne = [
   {
     imgUrl: "assets/images/event/event1.png",
-    imgAlt: "24th Foundation Day Celebrations",
-    Date: "03",
+    imgAlt: "National Conference on “Empowering Comprehensive Midwifery:Role in Health Care Education,Practice and Research”",
+    Date: "6th & 7th",
     MonthYear: "FEB 2024",
-    link: "https://www.youtube.com/watch?v=9TB7wn-ciCQ&ab_channel=CHARUSAT",
+    link: "",
     openInNewTab: true,
     title:
       "National Conference on “Empowering Comprehensive Midwifery:Role in Health Care Education,Practice and Research”",
@@ -21,16 +21,7 @@ const eventListOne = [
 ];
 
 const eventListTwo = [
-  {
-    Date: "6 & 7",
-    MonthYear: "March 2024",
-    link: "https://www.youtube.com/watch?v=9TB7wn-ciCQ&ab_channel=CHARUSAT",
-    openInNewTab: true,
-    title:
-      "National Conference on “Empowering Comprehensive Midwifery:Role in Health Care Education,Practice and Research”",
-    Time: "",
-    Place: "MTIN/CHARUSAT",
-  }
+ 
 ];
 
 const Event = () => {
@@ -62,7 +53,7 @@ const Event = () => {
                           />
                         </Link>
                       </div>
-                      {/* <div className="event-content" data-aos="fade-right"  data-aos-duration="3000">
+                      <div className="event-content" data-aos="fade-right"  data-aos-duration="2800">
                         <div className="event-date-info">
                           <div className="edi-box">
                             <h4>{val.Date}</h4>
@@ -70,8 +61,8 @@ const Event = () => {
                           </div>
                         </div>
                         <div className="event-content-info">
-                          <a href={val.link} target='_blank'>
-                            <h3>{val.title}</h3>
+                          <a target='_blank'>
+                            <h5>{val.title}</h5>
                           </a>
                           <ul className="lab-ul">
                             {val.Time ? (
@@ -92,8 +83,24 @@ const Event = () => {
                               <span></span>
                             )}
                           </ul>
+                          <div className="link-1">
+                            <Link
+                              target="_blank"
+                              to="https://charusat.ac.in/files/MTIN/OBG_MTIN_2024_Info.pdf"
+                              className="btn btn-danger text-white"
+                            >
+                              Information
+                            </Link>
+                            <Link
+                              target="_blank"
+                              to="https://charusat.ac.in/files/MTIN/OBG_MTIN_2024_Schedule.pdf"
+                              className="btn btn-danger text-white"
+                            >
+                              Schedule
+                            </Link>
+                          </div>
                         </div>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -112,7 +119,7 @@ const Event = () => {
                           </div>
                         </div>
                         <div className="event-content-info">
-                          <a href={val.link}>
+                          <a>
                             <h5>{val.title}</h5>
                           </a>
                           <ul className="lab-ul">
@@ -165,7 +172,7 @@ const Event = () => {
                           </div>
                         </div>
                         <div className="event-content-info">
-                          <a href="">
+                          <a>
                             <h5>Science Manthan 2024</h5>
                           </a>
                           <ul className="lab-ul">
@@ -184,6 +191,78 @@ const Event = () => {
                               className="btn btn-danger text-white"
                             >
                               Brochure
+                            </Link>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div className="event-item">
+                    <div className="event-inner">
+                      <div className="event-content" data-aos="fade-left">
+                        <div className="event-date-info">
+                          <div className="edi-box">
+                            <h4>13th-20th</h4>
+                            <p>FEB 2024</p>
+                          </div>
+                        </div>
+                        <div className="event-content-info">
+                          <a>
+                            <h5>TENDER FOR CATERING SERVICES FOR STUDENTS HOSTEL AT IISc</h5>
+                          </a>
+                          <ul className="lab-ul">
+                            
+                            
+                              <li>
+                                <i className="icofont-google-map"></i>
+                                CHARUSAT
+                              </li>
+                           
+                          </ul>
+                          <div className="link-1">
+                            <Link
+                              target="_blank"
+                              to="assets/files/event/CANTEEN_TENDER.pdf"
+                              className="btn btn-danger text-white"
+                            >
+                              Information
+                            </Link>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div className="event-item">
+                    <div className="event-inner">
+                      <div className="event-content" data-aos="fade-left">
+                        <div className="event-date-info">
+                          <div className="edi-box">
+                            <h4>12th</h4>
+                            <p>FEB 2024</p>
+                          </div>
+                        </div>
+                        <div className="event-content-info">
+                          <a>
+                            <h5>MPT admission open 2024-25</h5>
+                          </a>
+                          <ul className="lab-ul">
+                            
+                            
+                              <li>
+                                <i className="icofont-google-map"></i>
+                                ARIP/CHARUSAT
+                              </li>
+                           
+                          </ul>
+                          <div className="link-1">
+                            <Link
+                              target="_blank"
+                              to="https://www.charusat.ac.in/arip/"
+                              className="btn btn-danger text-white"
+                            >
+                              Apply Now
                             </Link>
                            
                           </div>
