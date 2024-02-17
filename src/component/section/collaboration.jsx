@@ -299,27 +299,29 @@ export default function collaboration() {
     //   </div>
     // </div>
     <div className="sponsor-section ">
-    <div className="container">
-      <div className="section-header text-center">
-        <span className="subtitle ">ALLIANCE</span>
-        <h2 className="title">{title}</h2>
-        {/* <h2 className="abs-title">{absTitle}</h2> */}
-      </div>
+      <hr />
+      <br />
+      <div className="container ">
+        <div className="section-header text-center">
+          <span className="subtitle ">ALLIANCE</span>
+          <h2 className="title">{title}</h2>
+          {/* <h2 className="abs-title">{absTitle}</h2> */}
+        </div>
 
-      <div className="section-wrapper">
-        <div className="sponsor-slider row sponsor-main">
-          {instructorBottomList.map((val, i) => (
-            <div key={i} className="col-md-2" data-aos="flip-right">
-              <div className="sponsor-iten">
-                <div className="sponsor-thumb bg-white border p-3 m-2 rounded">
-                  <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
+        <div className="section-wrapper">
+          <div className="sponsor-slider row sponsor-main">
+            {instructorBottomList.map((val, i) => (
+              <div key={i} className="col-md-2" data-aos="flip-right">
+                <div className="sponsor-iten">
+                  <div className="sponsor-thumb bg-white border p-3 m-2 rounded">
+                    <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>
-  </div>
   );
 }

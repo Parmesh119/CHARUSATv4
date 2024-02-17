@@ -22,7 +22,7 @@ const studentList = [
 
 const VisionMission = () => {
   return (
-    <div className="student-feedbak-section padding-tb shape-img vision-main">
+    <div className="student-feedbak-section p-4 shape-img vision-main">
       <div className="container">
         <div className="section-header text-center">
           <span className="subtitle">{subTitle}</span>

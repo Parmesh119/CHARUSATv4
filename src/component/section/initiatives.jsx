@@ -78,73 +78,81 @@ export default function initiatives() {
   };
 
   return (
-      <div className="course-section style-3 padding-b">
-        <div className="course-shape one">
-          <img src="assets/images/shape-img/icon/01.png" alt="education" />
-        </div>
-        <div className="course-shape two">
-          <img src="assets/images/shape-img/icon/02.png" alt="education" />
-        </div>
-        <div className="container py-4 text-center">
-        <span className="subtitle h5" style={{color:"#f16126",fontWeight:"normal",letterSpacing:"2px"}}>{subTitle}</span>
-        <div className="section-header text-center">
+    <div className="course-section shape-img  padding-b">
+      {/* <div className="course-shape one">
+        <img src="assets/images/shape-img/icon/01.png" alt="education" />
+      </div>
+      <div className="course-shape two">
+        <img src="assets/images/shape-img/icon/02.png" alt="education" />
+      </div> */}
+      <div className="container py-4 text-center">
+        <span
+          className="subtitle h5"
+          style={{
+            color: "#f16126",
+            fontWeight: "normal",
+            letterSpacing: "2px",
+          }}
+        >
+          {subTitle}
+        </span>
+        <div className=" text-center">
           {/* <span className="subtitle">{subTitle}</span> */}
-          <h2 className="title mx-auto">{title}</h2>
+          <h2 className="title mx-auto mb-4">{title}</h2>
         </div>
-         
-          <div className="section-wrapper">
-            <div className="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 course-filter">
-              {eventSliderList.map((elem) => {
-                const {
-                  id,
-                  imgUrl,
-                  imgAlt,
-                  cate,
-                  programs,
-                  title,
-                  link,
-                  author,
-                  authorName,
-                  price,
-                } = elem;
-                return (
-                  <a href={link} target="_blank" data-aos="fade-up">
-                    <div className="col" key={id}>
-                      <div className="course-item style-4">
-                        <div className="course-inner">
-                          <div className="course-thumb">
-                            <img src={imgUrl} alt={imgAlt} style={imageStyle} />
-                            <div className="course-category">
-                              <div
-                                className="course-cate text-center m-auto"
+
+        <div className="section-wrapper">
+          <div className="row g-4 justify-content-center row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 course-filter">
+            {eventSliderList.map((elem) => {
+              const {
+                id,
+                imgUrl,
+                imgAlt,
+                cate,
+                programs,
+                title,
+                link,
+                author,
+                authorName,
+                price,
+              } = elem;
+              return (
+                <a href={link} target="_blank" data-aos="fade-up">
+                  <div className="col" key={id}>
+                    <div className="course-item style-4">
+                      <div className="course-inner">
+                        <div className="course-thumb">
+                          <img src={imgUrl} alt={imgAlt} style={imageStyle} />
+                          <div className="course-category">
+                            <div
+                              className="course-cate text-center m-auto"
+                              style={{
+                                height: "68px",
+                              }}
+                            >
+                              <a href="#">{cate}</a>
+                              <p
                                 style={{
-                                  height: "68px",
+                                  fontSize: "1rem",
                                 }}
                               >
-                                <a href="#">{cate}</a>
-                                <p
-                                  style={{
-                                    fontSize: "1rem",
-                                  }}
-                                >
-                                  <span>{title}</span>
-                                </p>
-                              </div>
-                              {/* <div className="course-reiew">
+                                <span>{title}</span>
+                              </p>
+                            </div>
+                            {/* <div className="course-reiew">
                                                           <Rating />
                                                       </div> */}
-                            </div>
                           </div>
-                          
                         </div>
                       </div>
                     </div>
-                  </a>
-                );
-              })}
-            </div>
+                  </div>
+                </a>
+              );
+            })}
           </div>
         </div>
       </div>
+    </div>
   );
 }
