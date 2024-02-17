@@ -26,6 +26,23 @@ const CourseList = [
     websiteLink: "https://charusat.ac.in/i2im/",
     programCode: "4401",
   },
+  // {
+  //   courseName: "Master of Technology (Thermal Engineering)",
+  //   faculty: "Faculty of Technology and Engineering",
+  //   Institute: "Institute: Chandubhai S. Patel Insitute of Technology(CSPIT)",
+  //   CourseDuration: "02 Years",
+  //   Intake: "09",
+  //   Fees: "₹ 1,59,000/-",
+  //   Eligibility:
+  //     "BE/B.Tech in relevant discipline with minimum 50 % and should have applied/appeared in GATE/Non-GATE Entrance Exam Any student within/outside Gujarat",
+  //   syllabusBtn: "View Syllabus",
+  //   syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FMS%20I2IM/",
+  //   brochureBtn: "Download Brochure",
+  //   brochureLink: "http://charusat.ac.in/Downloads/Brochure/IIIM/",
+  //   websiteBtn: "Visit Website",
+  //   websiteLink: "https://charusat.ac.in/i2im/",
+  //   programCode: "4401",
+  // },
   {
     courseName: "Master of Business Administration (MBA)",
     faculty: "Faculty of Management Studies",

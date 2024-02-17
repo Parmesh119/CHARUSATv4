@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const subTitle = "Loved by 50,000+ students";
-const title = "Our Mission and Vision";
+const title = "Vision and Mission";
 
 const studentList = [
   {
