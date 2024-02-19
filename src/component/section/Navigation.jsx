@@ -1038,7 +1038,7 @@ const Header = () => {
                   <Dropdown.Item href="./scholarship">
                     Scholarships
                   </Dropdown.Item>
-                  <Dropdown.Item href="./scholarship">
+                  <Dropdown.Item href="./samaj-scholarship">
                     Samaj Scholarships
                   </Dropdown.Item>
                   <Dropdown.Item href="./student-corner">
