@@ -74,6 +74,7 @@ import Edic from "./page/edic";
 import StudentCorner from "./page/student-corner";
 import PhDPrograms from "./page/ph-d-programs";
 import SamajGosthi from "./page/samajGosthi";
+import SamajScholarship from "./page/samaj_scholarships";
 import Officers from "./page/officers";
 import AnnualReport from "./page/annual-report";
 
@@ -169,6 +170,7 @@ function App() {
         <Route path="/crtc" element={<CSRTC />} />
         <Route exact path="/ph-d-programs" element={<PhDPrograms />} />
         <Route exact path="/samaj-gosthi" element={<SamajGosthi />} />
+        <Route exact path="/samaj-scholarship" element={<SamajScholarship />} />
         <Route path="/annual-report" element={<AnnualReport />} />
         <Route path="university-industry-interaction-cell" element={<UIIC />} />
         <Route path="/anti-ragging" element={<AntiRagging />} />
