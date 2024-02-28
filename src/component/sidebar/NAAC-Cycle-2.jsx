@@ -37,6 +37,10 @@ const commentList = [
         desc: 'NAAC AQAR 2020-2021',
         link: 'https://heyzine.com/flip-book/0e2d6e399a.html',
     },
+    {
+        desc: 'NAAC AQAR 2021-2022',
+        link: 'https://heyzine.com/flip-book/1f3c6b09b6.html',
+    },
     
 ]
 

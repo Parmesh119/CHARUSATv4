@@ -183,10 +183,18 @@ Work with color and Gradients and Grids</li>
                             status of a Center of Excellence.
                           </p>
                           <a
-                            class="lab-btn"
+                            class="lab-btn btn111"
                             href="https://charusat.ac.in/files/iqac/coe/CoEApplicationData.pdf"
                           >
                             <span>Application Data</span>
+                          </a>
+                          <br />
+                          <a
+                            class="lab-btn btn111"
+                            href="assets/files/Accreditation/updated/COE-Notification.pdf"
+                            target="_blank"
+                          >
+                            <span>COE Certificate</span>
                           </a>
                           <br />
                           <br />
@@ -199,10 +207,7 @@ Work with color and Gradients and Grids</li>
                             <span>CoE Notification</span>
                           </a>
                           <br/><br/> */}
-                          <img
-                            src="assets/images/achive/COE-Certificate.jpg"
-                            alt=""
-                          />
+                          
                         </div>
                       </div>
                     </div>
