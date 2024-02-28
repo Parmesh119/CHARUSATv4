@@ -69,7 +69,7 @@ const eventSliderList = [
   {
     imgUrl: "assets/images/initiative/CIVF.png",
     imgAlt: "CIVF Image",
-    title: "Charusat Innovative Ventures Foundation",
+    title: ["Charusat Innovative Ventures Foundation",<br/>," A Section-8 Company"],
     btnText: "Read More",
     url: "https://civf.co.in/",
   },
@@ -154,6 +154,7 @@ export default function initiatives() {
                   </div>
                 </a>
               );
+              
             })}
           </div>
         </div>
