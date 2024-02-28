@@ -35,7 +35,7 @@ const content = [
     title: "CHARUSAT",
     description: "Accreditated with 'A+' Grade by NAAC",
     button: "Apply Now",
-    image: "assets/images/home/s1-updated.png",
+    image: "assets/images/home/slider1111.jpg",
     user: "Luan Gjokaj",
     userProfile: "https://i.imgur.com/JSW6mEk.png",
   },

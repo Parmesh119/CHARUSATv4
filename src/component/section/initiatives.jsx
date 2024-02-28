@@ -38,14 +38,12 @@ const eventSliderList = [
     imgAlt: "SDG Lab image",
     title: "SDG Handprint Action Lab",
     btnText: "Read More",
-    url: "/coming-soon",
   },
   {
     imgUrl: "assets/images/initiative/HRDC.png",
     imgAlt: "HRDC image",
     title: "Pri. B. I. Patel Human Resource Development Center",
     btnText: "Read More",
-    url: "/coming-soon",
   },
   {
     imgUrl: "assets/images/initiative/EDIC.jpg",
@@ -66,7 +64,14 @@ const eventSliderList = [
     imgAlt: "NABL Lab image",
     title: "NABL & Testing Facilities",
     btnText: "Read More",
-    url: "/coming-soon",
+    
+  },
+  {
+    imgUrl: "assets/images/initiative/CIVF.png",
+    imgAlt: "CIVF Image",
+    title: "Charusat Innovative Ventures Foundation",
+    btnText: "Read More",
+    url: "https://civf.co.in/",
   },
 ];
 
@@ -117,7 +122,7 @@ export default function initiatives() {
                 price,
               } = elem;
               return (
-                <a href={link} target="_blank" data-aos="fade-up">
+                <a href={elem.url} target="_blank" data-aos="fade-up">
                   <div className="col" key={id}>
                     <div className="course-item style-4">
                       <div className="course-inner">
