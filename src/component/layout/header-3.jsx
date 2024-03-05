@@ -74,7 +74,7 @@ const HeaderThree = () => {
               <Link to="./accreditation-and-ranking">NIRF</Link>
               <Link to="./placement">Placement</Link>
               <a href="./scholarship">Scholarships</a>
-              <a href="./scholarship">Samaj Scholarships</a>
+              <a href="./samaj-scholarship">Samaj Scholarships</a>
               <Link to="./student-corner">Student Corner</Link>
 
               {/* <Link to="/signup" className="signup">

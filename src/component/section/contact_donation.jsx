@@ -71,12 +71,12 @@ export default function contact_donation(props) {
                       </a>
                       <br />
                       <br />
-                      <Link to="/#" className="lab-btn">
+                      {/* <Link to="/#" className="lab-btn">
                         <span>
                           Donate Online{" "}
                           <i className="icofont-external-link"></i>
                         </span>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>

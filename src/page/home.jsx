@@ -15,6 +15,7 @@ import Messages from "../component/section/messages";
 import Intiatives from "../component/section/initiatives";
 import Placement from "../component/section/palcement";
 import Event from "../component/section/event";
+import VisionMission from "../component/section/Vision_Mission";
 import Instructor from "../component/section/instructor";
 import { Helmet } from "react-helmet";
 
@@ -58,7 +59,8 @@ const Home = () => {
       <Banner />
       <About />
       <Event />
-      <NewsFrontPage />
+      <VisionMission/>
+      {/* <NewsFrontPage /> */}
       {/* <Messages /> */}
       <Faculties />
       <Intiatives />

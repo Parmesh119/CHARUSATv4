@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../../assets/css/navigation.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import Scroll from "react-scroll";
+import Course from "../../page/course-single"
 const ScrollLink = Scroll.ScrollLink;
 
 const Header = () => {
@@ -46,6 +47,28 @@ const Header = () => {
             </div>
             <div className="nav-links">
               <ul className={`links `}>
+                <li
+                  className="link"
+                  onMouseOver={() => {
+                    document.getElementById("KnowCHARUSAT").style.display =
+                      "grid";
+                    setActiveLink("KnowCHARUSAT");
+                  }}
+                  onMouseOut={() => {
+                    document.getElementById("KnowCHARUSAT").style.display =
+                      "none";
+                  }}
+                >
+                  <a
+                    id="KnowCHARUSAT-link"
+                    href=""
+                    className={`${
+                      activeLink === "KnowCHARUSAT" ? "green-text" : "green"
+                    }`}
+                  >
+                    Know CHARUSAT
+                  </a>
+                </li>
                 <li
                   className={`link green-text`}
                   onMouseOver={() => {
@@ -123,28 +146,6 @@ const Header = () => {
                     Online Programmes
                   </a>
                 </li>
-                <li
-                  className="link"
-                  onMouseOver={() => {
-                    document.getElementById("KnowCHARUSAT").style.display =
-                      "grid";
-                    setActiveLink("KnowCHARUSAT");
-                  }}
-                  onMouseOut={() => {
-                    document.getElementById("KnowCHARUSAT").style.display =
-                      "none";
-                  }}
-                >
-                  <a
-                    id="KnowCHARUSAT-link"
-                    href=""
-                    className={`${
-                      activeLink === "KnowCHARUSAT" ? "green-text" : "green"
-                    }`}
-                  >
-                    Know CHARUSAT
-                  </a>
-                </li>
               </ul>
             </div>
           </nav>
@@ -165,10 +166,10 @@ const Header = () => {
                 <h5 className="menu-head">Learn Online</h5>
                 <div className="menu-items">
                   <a
-                    href="https://charuvidya.charusat.ac.in"
+                    href="http://ILMS.CHARUSAT.ac.in"
                     className="menu-link"
                   >
-                    CharuVidya
+                    iLMS
                   </a>
                   {/* <a
                     href="http://172.16.11.116/LocalGuru/"
@@ -205,8 +206,9 @@ const Header = () => {
             <div className="menu-div border-left">
               <h5 className="menu-head">Undergraduate Studies</h5>
               <div className="menu-items">
-                <Link to="./course-single#1406" className="menu-link">
+                <Link to="./course-single#1406" id="1406" className="menu-link">
                   B.Tech
+                   
                 </Link>
                 <Link to="./course-single#2401" className="menu-link">
                   BCA
@@ -299,10 +301,13 @@ const Header = () => {
             </div>
             <div className="menu-div border-left">
               <div className="menu-d">
-             
                 <h5 className="menu-head">Ph D Programs</h5>
                 <div className="menu-items">
-                  <Link to="assets\files\PHD\PhD_Regulations.pdf" target="_blank" className="menu-link">
+                  <Link
+                    to="assets\files\PHD\PhD_Regulations.pdf"
+                    target="_blank"
+                    className="menu-link"
+                  >
                     General Information
                   </Link>
                 </div>
@@ -364,25 +369,20 @@ const Header = () => {
               <h5 className="menu-head">National</h5>
               <div className="menu-items">
                 <a
-                  href="https://admission2023.charusat.ac.in/"
+                  href="https://admission.charusat.ac.in/"
                   className="menu-link"
                 >
                   Apply Now
                 </a>
-                <a
+                {/* <a
                   href={AdmissionEligibilityCriteria}
                   target="_blank"
                   className="menu-link"
                   rel="noopener noreferrer"
                 >
                   Eligibility Criteria
-                </a>
-                <a
-                  href="https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view"
-                  className="menu-link"
-                >
-                  Fees
-                </a>
+                </a> */}
+                
                 <a href="#" className="menu-link">
                   <i
                     class="icofont-brand-whatsapp"
@@ -396,21 +396,19 @@ const Header = () => {
               <h5 className="menu-head">International</h5>
               <div className="menu-items">
                 <a
-                  href="https://admission2023.charusat.ac.in/"
+                  href="https://admission.charusat.ac.in/"
                   className="menu-link"
                 >
                   Apply Now
                 </a>
-                <a
+                {/* <a
                   href={EligibilityCriteria}
                   target="_blank"
                   className="menu-link"
                 >
                   Eligibility Criteria
-                </a>
-                <a href={InterNationalFees} className="menu-link">
-                  Fees
-                </a>
+                </a> */}
+                
                 <a href="#" className="menu-link">
                   <i
                     class="icofont-brand-whatsapp"
@@ -424,7 +422,7 @@ const Header = () => {
               <h5 className="menu-head">Other</h5>
               <div className="menu-items">
                 <a
-                  href="https://admission2023.charusat.ac.in/"
+                  href="https://admission.charusat.ac.in/"
                   className="menu-link"
                 >
                   Admission Login
@@ -785,12 +783,12 @@ const Header = () => {
                   {/* <Link to="./about" className="menu-link">
                     About University
                   </Link> */}
-                  <Link to="./mission-vision" className="menu-link">
+                  {/* <Link to="./mission-vision" className="menu-link">
                     Vision
                   </Link>
                   <Link to="./mission-vision" className="menu-link">
                     Mission
-                  </Link>
+                  </Link> */}
                   <Link to="./torchbearers" className="menu-link">
                     Torchbearers
                   </Link>
@@ -809,16 +807,16 @@ const Header = () => {
                   <Link to="./convocations" className="menu-link">
                     Convocations
                   </Link>
-                  <Link to="./associates" className="menu-link">
+                  <Link to="./governing-body"  className="menu-link">
                     Governing Body
                   </Link>
-                  <Link to="./associates" className="menu-link">
+                  <Link to="./board-of-management" className="menu-link">
                     Board of Management
                   </Link>
-                  <Link to="./associates" className="menu-link">
+                  <Link to="./deans&principal" className="menu-link">
                     Deans, Principals & Heads
                   </Link>
-                  <Link to="./associates" className="menu-link">
+                  <Link to="./university-officers" className="menu-link">
                     University Officers
                   </Link>
                   <Link to="./journey" className="menu-link">
@@ -949,13 +947,21 @@ const Header = () => {
                   <Link to="./annual-report" className="menu-link">
                     Annual Report
                   </Link>
-                  <Link to="assets\files\CHARUSAT_Action_Plan.pdf" target="_blank" className="menu-link">
+                  <Link
+                    to="assets\files\CHARUSAT_Action_Plan.pdf"
+                    target="_blank"
+                    className="menu-link"
+                  >
                     Strategic Plan
                   </Link>
                   <Link to="./samaj-gosthi" className="menu-link">
                     Samaj Gosthi
                   </Link>
-                  <Link to="assets\images\map\charusat-map.jpg" target="_blank" className="menu-link">
+                  <Link
+                    to="assets\images\map\charusat-map.jpg"
+                    target="_blank"
+                    className="menu-link"
+                  >
                     Campus Map
                   </Link>
                   <a
@@ -1014,22 +1020,176 @@ const Header = () => {
                 />
               </a>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className="btn-toggle1"/>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-              <NavDropdown title="Quick Links" id="basic-nav-dropdown">
-                  <Dropdown.Item  href="./accreditation-and-ranking">Accreditation & Ranking</Dropdown.Item>
-                  <Dropdown.Item href="https://charusatalumni.org">Alumni</Dropdown.Item>
+                <NavDropdown title="Quick Links" id="basic-nav-dropdown">
+                  <Dropdown.Item href="./accreditation-and-ranking">
+                    Accreditation & Ranking
+                  </Dropdown.Item>
+                  <Dropdown.Item href="https://charusatalumni.org">
+                    Alumni
+                  </Dropdown.Item>
                   <Dropdown.Item href="./careers">Careers</Dropdown.Item>
-                  <Dropdown.Item href="./accreditation-and-ranking">NIRF</Dropdown.Item>
+                  <Dropdown.Item href="./accreditation-and-ranking">
+                    NIRF
+                  </Dropdown.Item>
                   <Dropdown.Item href="./placement">Placement</Dropdown.Item>
-                  <Dropdown.Item href="./scholarship">Scholarships</Dropdown.Item>
-                  <Dropdown.Item href="./scholarship">Samaj Scholarships</Dropdown.Item>
-                  <Dropdown.Item href="./student-corner">Student Corner</Dropdown.Item>
-                  <Dropdown.Item href="https://charusat.edu.in:912/UniExamResult/">Exam Result</Dropdown.Item>
-                  <Dropdown.Item href="https://charusat.edu.in:912/FeesPaymentApp/">Pay Fees</Dropdown.Item>
+                  <Dropdown.Item href="./scholarship">
+                    Scholarships
+                  </Dropdown.Item>
+                  <Dropdown.Item href="./samaj-scholarship">
+                    Samaj Scholarships
+                  </Dropdown.Item>
+                  <Dropdown.Item href="./student-corner">
+                    Student Corner
+                  </Dropdown.Item>
+                  <Dropdown.Item href="https://charusat.edu.in:912/UniExamResult/">
+                    Exam Result
+                  </Dropdown.Item>
+                  <Dropdown.Item href="https://charusat.edu.in:912/FeesPaymentApp/">
+                    Pay Fees
+                  </Dropdown.Item>
                   <Dropdown.Item href="./contact-us">Contact Us</Dropdown.Item>
-                  <Dropdown.Item href="./contact-us">Support Charusat</Dropdown.Item>
+                  <Dropdown.Item href="./contact-us">
+                    Support Charusat
+                  </Dropdown.Item>
+                </NavDropdown>
+                <NavDropdown title="Know CHARUSAT" id="basic-nav-dropdown">
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      About University
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      {/* <Dropdown.Item href="./mission-vision">
+                        Vision
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./mission-vision">
+                        Mission
+                      </Dropdown.Item> */}
+                      <Dropdown.Item href="./torchbearers">
+                        Torchbearers
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./about">About</Dropdown.Item>
+                      <Dropdown.Item href="./president-desk">
+                        From President's Desk
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./provost-desk">
+                        From Provost's Desk
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./convocations">
+                        Convocations
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./governing-body">
+                        Governing Body
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./board-of-management">
+                        Board of Management
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./deans&principal">
+                        Deans, Principals & Heads
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./university-officers">
+                        University Officers
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Centers & Cells
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="./anti-ragging">
+                        Anti-Ragging Committee
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./eoc">
+                        Equal Opportunity Cell
+                      </Dropdown.Item>
+                      {/* <Dropdown.Item href="./ecc">
+                        Energy Conservation Cell
+                      </Dropdown.Item> */}
+                      <Dropdown.Item href="./GRC">
+                        Grievance Redressal Cell
+                      </Dropdown.Item>
+                      <Dropdown.Item href="/edic">
+                        Enterpreneurship Development & Incubation Cell
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./university-industry-interaction-cell">
+                        University Industry Interaction Cell
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./wdc">
+                        Womens' Development Cell
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./hrdc">
+                        Pri. B I Patel Human Resource Development Center
+                      </Dropdown.Item>
+                      <Dropdown.Item href="https://isc.charusat.ac.in/">
+                        International Students' Cell
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./cpsh">
+                        Cell for Prevention of Sexual Harassment
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./CREDP">
+                        Charusat Rural Education Development Program
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./student-wellness-program">
+                        Student Wellness Programme
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./wincell">
+                        Data Center @ CHARUSAT - WINCELL
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Infrastructure & Resources
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="https://youtu.be/Og4NMqI3q5M">
+                        Laboratories
+                      </Dropdown.Item>
+                      <Dropdown.Item href="https://scpit.new.knimbus.com/user#/home">
+                        Knowledge Resource Center
+                      </Dropdown.Item>
+                      <Dropdown.Item href="./coming-soon">
+                        Herbal Garden
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                  <Dropdown>
+                    <Dropdown.Toggle variant="" id="dropdown">
+                      Others
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="./donation">
+                        Give & Support
+                      </Dropdown.Item>
+                      <Dropdown.Item href="https://www.charusat.ac.in/documents-access/">
+                        Finance Reports
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        <Link to="./annual-report">Annual Reports</Link>
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        <Link to="assets\files\CHARUSAT_Action_Plan.pdf" >Strategic Plan</Link>
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        <Link to="./samaj-gosthi">Samaj Gosthi</Link>
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        <Link to="assets\images\map\charusat-map.jpg">Campus Map</Link>
+                      </Dropdown.Item>
+                      <Dropdown.Item href="https://charusat.ac.in/Downloads/">
+                        Downloads
+                      </Dropdown.Item>
+                      {/* <Dropdown.Item href="\assets\files\CHARUSAT Action Plan.pdf">
+                        Strategic Plan
+                      </Dropdown.Item>
+                      <Dropdown.Item href="https://charusat.ac.in/Downloads/">
+                        Samaj Gosthi
+                      </Dropdown.Item> */}
+                    </Dropdown.Menu>
+                  </Dropdown>
                 </NavDropdown>
                 <NavDropdown title="Academics" id="basic-nav-dropdown">
                   <Dropdown>
@@ -1037,8 +1197,8 @@ const Header = () => {
                       Learn Online
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://charuvidya.charusat.ac.in/">
-                        CharuVidya
+                      <Dropdown.Item href="http://ILMS.CHARUSAT.ac.in">
+                      iLMS
                       </Dropdown.Item>
                       {/* <Dropdown.Item href="http://172.16.11.116/LocalGuru/">
                         NPTEL Resources (Intranet)
@@ -1206,15 +1366,13 @@ const Header = () => {
                       National
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://admission2023.charusat.ac.in/">
+                      <Dropdown.Item href="https://admission.charusat.ac.in/">
                         Apply Now
                       </Dropdown.Item>
-                      <Dropdown.Item href={AdmissionEligibilityCriteria}>
+                      {/* <Dropdown.Item href={AdmissionEligibilityCriteria}>
                         Eligibility criteria
-                      </Dropdown.Item>
-                      <Dropdown.Item href="https://drive.google.com/file/d/1zzlAVorLJXqcde1JAKHlMyBc8sJuvUov/view">
-                        Fees
-                      </Dropdown.Item>
+                      </Dropdown.Item> */}
+                      
                       <Dropdown.Item>+91 8905500500</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
@@ -1223,15 +1381,13 @@ const Header = () => {
                       International
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://admission2023.charusat.ac.in/">
+                      <Dropdown.Item href="https://admission.charusat.ac.in/">
                         Apply Now
                       </Dropdown.Item>
-                      <Dropdown.Item href={EligibilityCriteria}>
+                      {/* <Dropdown.Item href={EligibilityCriteria}>
                         Eligibility criteria
-                      </Dropdown.Item>
-                      <Dropdown.Item href={InterNationalFees}>
-                        Fees
-                      </Dropdown.Item>
+                      </Dropdown.Item> */}
+                      
                       <Dropdown.Item>+91 917370164</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
@@ -1240,7 +1396,7 @@ const Header = () => {
                       Other
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="https://admission2023.charusat.ac.in/">
+                      <Dropdown.Item href="https://admission.charusat.ac.in/">
                         Admission Login
                       </Dropdown.Item>
                       <Dropdown.Item href="./admission-reprentatives">
@@ -1425,136 +1581,12 @@ const Header = () => {
                   </Dropdown>
                 </NavDropdown>
                 <NavDropdown title="IQAC" id="basic-nav-dropdown">
-                  <Dropdown href="https://iqac.charusat.ac.in/0">IQAC</Dropdown>
+                  <Dropdown.Item href="https://iqac.charusat.ac.in/0">IQAC</Dropdown.Item>
+                </NavDropdown>
+                <NavDropdown title="Online Programmes" id="basic-nav-dropdown">
+                  <Dropdown.Item href="https://charusat.online/">Online Programmes</Dropdown.Item>
                 </NavDropdown>
                 {/*  */}
-                <NavDropdown title="Know CHARUSAT" id="basic-nav-dropdown">
-                  <Dropdown>
-                    <Dropdown.Toggle variant="" id="dropdown">
-                      About University
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu>
-                      <Dropdown.Item href="./mission-vision">
-                        Vision
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./mission-vision">
-                        Mission
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./torchbearers">
-                        Torchbearers
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./about">About</Dropdown.Item>
-                      <Dropdown.Item href="./president-desk">
-                        From President's Desk
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./provost-desk">
-                        From Provost's Desk
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./convocations">
-                        Convocations
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./associates">
-                        Governing Body
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./associates">
-                        Board of Management
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./associates">
-                        Deans, Principals & Heads
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./associates">
-                        University Officers
-                      </Dropdown.Item>
-                    </Dropdown.Menu>
-                  </Dropdown>
-                  <Dropdown>
-                    <Dropdown.Toggle variant="" id="dropdown">
-                      Centers & Cells
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu>
-                      <Dropdown.Item href="./anti-ragging">
-                        Anti-Ragging Committee
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./eoc">
-                        Equal Opportunity Cell
-                      </Dropdown.Item>
-                      {/* <Dropdown.Item href="./ecc">
-                        Energy Conservation Cell
-                      </Dropdown.Item> */}
-                      <Dropdown.Item href="./GRC">
-                        Grievance Redressal Cell
-                      </Dropdown.Item>
-                      <Dropdown.Item href="/edic">
-                        Enterpreneurship Development & Incubation Cell
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./university-industry-interaction-cell">
-                        University Industry Interaction Cell
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./wdc">
-                        Womens' Development Cell
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./hrdc">
-                        Pri. B I Patel Human Resource Development Center
-                      </Dropdown.Item>
-                      <Dropdown.Item href="https://isc.charusat.ac.in/">
-                        International Students' Cell
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./cpsh">
-                        Cell for Prevention of Sexual Harassment
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./CREDP">
-                        Charusat Rural Education Development Program
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./student-wellness-program">
-                        Student Wellness Programme
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./wincell">
-                        Data Center @ CHARUSAT - WINCELL
-                      </Dropdown.Item>
-                    </Dropdown.Menu>
-                  </Dropdown>
-                  <Dropdown>
-                    <Dropdown.Toggle variant="" id="dropdown">
-                      Infrastructure & Resources
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu>
-                      <Dropdown.Item href="https://youtu.be/Og4NMqI3q5M">
-                        Laboratories
-                      </Dropdown.Item>
-                      <Dropdown.Item href="https://scpit.new.knimbus.com/user#/home">
-                        Knowledge Resource Center
-                      </Dropdown.Item>
-                      <Dropdown.Item href="./coming-soon">
-                        Herbal Garden
-                      </Dropdown.Item>
-                    </Dropdown.Menu>
-                  </Dropdown>
-                  <Dropdown>
-                    <Dropdown.Toggle variant="" id="dropdown">
-                      Others
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu>
-                      <Dropdown.Item href="./donation">
-                        Give & Support
-                      </Dropdown.Item>
-                      <Dropdown.Item href="https://www.charusat.ac.in/documents-access/">
-                        Finance Reports
-                      </Dropdown.Item>
-                      <Dropdown.Item>
-                        <Link to="./annual-report">Annual Reports</Link>
-                      </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/Downloads/">
-                        Downloads
-                      </Dropdown.Item>
-                      {/* <Dropdown.Item href="\assets\files\CHARUSAT Action Plan.pdf">
-                        Strategic Plan
-                      </Dropdown.Item>
-                      <Dropdown.Item href="https://charusat.ac.in/Downloads/">
-                        Samaj Gosthi
-                      </Dropdown.Item> */}
-                    </Dropdown.Menu>
-                  </Dropdown>
-                </NavDropdown>
               </Nav>
             </Navbar.Collapse>
           </Container>

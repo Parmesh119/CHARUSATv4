@@ -1109,7 +1109,7 @@ const CREDP = () => {
               </article>
             </div>
 
-            {/*  */}
+           
             <div className="col-lg-4 col-12">
               <aside>
                 <div className="section-wrapper">
@@ -1118,9 +1118,9 @@ const CREDP = () => {
                       <div className="post-item style-2">
                         <div className="post-inner">
                           <div className="post-content">
-                            {/* <Link to="/blog-single"> */}
+                           
                             <h3>Contact Person</h3>
-                            {/* </Link> */}
+                            
                             <div className="meta-post">
                               <ul className="lab-ul">
                                 <li
@@ -1129,7 +1129,7 @@ const CREDP = () => {
                                   }}
                                 >
                                   <i className="icofont-ui-user"></i>
-                                  Dr. Atul Patel
+                                 - - - - - - - - - - - - -
                                 </li>
                                 <li
                                   style={{
@@ -1137,7 +1137,7 @@ const CREDP = () => {
                                   }}
                                 >
                                   <i className="icofont-email"></i>
-                                  atulpatel.mca@charusat.ac.in
+                                  - - - - - - - - - - - - -
                                 </li>
                               </ul>
                             </div>
@@ -1149,7 +1149,7 @@ const CREDP = () => {
                 </div>
               </aside>
             </div>
-            {/*  */}
+           
           </div>
         </div>
       </div>
