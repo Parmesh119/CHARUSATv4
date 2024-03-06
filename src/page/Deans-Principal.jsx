@@ -6,7 +6,6 @@ import { Helmet } from "react-helmet";
 const title = "";
 
 const CourseData = [
-  
   {
     imgUrl: "assets/images/People/dr-y-p-kosta.webp",
     imgAlt: "y p kosta",
@@ -17,14 +16,12 @@ const CourseData = [
       <strong>Director:</strong>,
       "University Research Cell(URC) - CSRTC,KRADLE,ICC,ADPICoE(AI)",
       <br />,
-      <strong>
-        Email:
-      </strong>
-      , "director.urc@charusat.ac.in",
+      <strong>Email:</strong>,
+      "director.urc@charusat.ac.in",
     ],
     id: 8,
   },
- 
+
   {
     imgUrl: "assets/images/People/MananRaval.webp",
     imgAlt: "Manan Raval",
@@ -32,13 +29,9 @@ const CourseData = [
     title: "Dr. Manan Raval",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      <strong>
-        Member
-      </strong>,
+      <strong>Member</strong>,
       <br />,
-      <strong>
-        Principal:
-      </strong>,
+      <strong>Principal:</strong>,
       " Ramanbhai Patel College of Pharmacy (RPCP)",
       <br />,
       <strong>Email:</strong>,
@@ -46,7 +39,7 @@ const CourseData = [
     ],
     id: 7,
   },
-  
+
   {
     imgUrl: "assets/images/People/DarshanPatel.webp",
     imgAlt: "Darshan Patel",
@@ -54,13 +47,9 @@ const CourseData = [
     title: "Dr. Darshan Patel",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        Principal :
-      </strong>,
+      <strong>Principal :</strong>,
       " P D Patel Institute of Applied Sciences (PDPIAS)",
       <br />,
       <strong>Email:</strong>,
@@ -68,7 +57,7 @@ const CourseData = [
     ],
     id: 18,
   },
-  
+
   {
     imgUrl: "assets/images/People/BalaGanpathy.webp",
     imgAlt: "Dr. M BalaGanpathy",
@@ -76,13 +65,9 @@ const CourseData = [
     title: "Dr. M Balaganapathy",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        Principal :
-      </strong>,
+      <strong>Principal :</strong>,
       " Ashok & Rita Patel Institute of Physiotherapy (ARIP)",
       <br />,
       <strong>Email:</strong>,
@@ -97,18 +82,12 @@ const CourseData = [
     title: "Dr. Vijay Chaudhary",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        I/C Dean:
-      </strong>,
+      <strong>I/C Dean:</strong>,
       " Faculty of Technology & Engineering",
       <br />,
-      <strong>
-        Head:
-      </strong>,
+      <strong>Head:</strong>,
       " CHAMOS Matrusanstha Department of Mechanical Engineering",
       <br />,
       <strong>Email:</strong>,
@@ -123,15 +102,16 @@ const CourseData = [
     title: "Dr. Bhaskar Pandya",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
       <strong>Dean:</strong>,
       "Faculty of Humanities",
       <br />,
-      <strong>Head:</strong>, "Dept. of Humanities", <br />,
-      <strong>Email:</strong>, "dean.foh@charusat.ac.in",
+      <strong>Head:</strong>,
+      "Dept. of Humanities",
+      <br />,
+      <strong>Email:</strong>,
+      "dean.foh@charusat.ac.in",
     ],
     id: 22,
   },
@@ -142,13 +122,9 @@ const CourseData = [
     title: "Dr. Gayatri Dave",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        Dean :
-      </strong>,
+      <strong>Dean :</strong>,
       " Faculty of Sciences",
       <br />,
       <strong>Email:</strong>,
@@ -165,13 +141,9 @@ const CourseData = [
     author:
       "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Dhruv-Dave.webp",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        Dean :
-      </strong>,
+      <strong>Dean :</strong>,
       "Faculty of Medical Sciences",
       <br />,
       <strong>Email:</strong>,
@@ -188,13 +160,9 @@ const CourseData = [
     author:
       "https://charusat.ac.in/wp-content/uploads/Deans_Principal/TKU.webp",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        Principal :
-      </strong>,
+      <strong>Principal :</strong>,
       " Chandubhai S Patel Institute of Technology(CSPIT)",
       <br />,
       <strong>Email:</strong>,
@@ -209,13 +177,9 @@ const CourseData = [
     title: "Dr. Samir Patel",
     author: "assets/images/People/user.png",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        Dean :
-      </strong>,
+      <strong>Dean :</strong>,
       " Faculty of Pharmacy",
       <br />,
       <strong>Email:</strong>,
@@ -223,27 +187,23 @@ const CourseData = [
     ],
     id: 33,
   },
-  // {
-  //   imgUrl: "assets/images/People/Amit_Nayak.png",
-  //   imgAlt: "Dr. Amit Nayak",
-  //   cate: ["DeansNPrincipals"],
-  //   title: "Dr. Amit Nayak",
-  //   author: "assets/images/People/Amit_Nayak.png",
-  //   authorName: [
-  //     <strong>
-  //       Ph.D.
-  //     </strong>,
-  //     <br />,
-  //     <strong>
-  //       Principal :
-  //     </strong>,
-  //     " Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
-  //     <br />,
-  //     <strong>Email:</strong>,
-  //     "principal.depstar@charusat.ac.in",
-  //   ],
-  //   id: 34,
-  // },
+  {
+    imgUrl: "assets/images/People/BankimSir.JPG",
+    imgAlt: "Dr. Bankim Patel",
+    cate: ["DeansNPrincipals"],
+    title: "Dr. Bankim Patel",
+    author: "assets/images/People/BankimSir.JPG",
+    authorName: [
+      <strong>Ph.D.</strong>,
+      <br />,
+      <strong>Principal :</strong>,
+      " Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
+      <br />,
+      <strong>Email:</strong>,
+      "principal.depstar@charusat.ac.in",
+    ],
+    id: 34,
+  },
   {
     imgUrl:
       "https://charusat.ac.in/wp-content/uploads/Deans_Principal/sanskruti_patel.jpg",
@@ -253,13 +213,9 @@ const CourseData = [
     author:
       "https://charusat.ac.in/wp-content/uploads/Deans_Principal/sanskruti_patel.jpg",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        Dean :
-      </strong>,
+      <strong>Dean :</strong>,
       "  Faculty of Computer Science & Applications",
       <br />,
       <strong>Email:</strong>,
@@ -274,13 +230,9 @@ const CourseData = [
     title: "Dr. Dharmendra Patel",
     author: "assets/images/People/Dharmendra_Patel.png",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        Principal :
-      </strong>,
+      <strong>Principal :</strong>,
       "Smt. Chandaben Mohanbhai Patel Intitute of Computer Applications (CMPICA)",
       <br />,
       <strong>Email:</strong>,
@@ -297,13 +249,9 @@ const CourseData = [
     author:
       "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Reshma.webp",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        Dean :
-      </strong>,
+      <strong>Dean :</strong>,
       " Faculty of Management Studies",
       <br />,
       <strong>Email:</strong>,
@@ -320,13 +268,9 @@ const CourseData = [
     author:
       "https://charusat.ac.in/wp-content/uploads/Deans_Principal/Binit-Patel.webp",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        Principal :
-      </strong>,
+      <strong>Principal :</strong>,
       " Indukaka Ipcowala Institute of Management(I2IM)",
       <br />,
       <strong>Email:</strong>,
@@ -341,13 +285,9 @@ const CourseData = [
     title: "Dr. Hemant Kumar",
     author: "assets/images/People/user.png",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        Principal :
-      </strong>,
+      <strong>Principal :</strong>,
       " Bapubhai Desaibhai Patel Institute of Paramedical Sciences(BDPIPS)",
       <br />,
       <strong>Email:</strong>,
@@ -363,8 +303,8 @@ const CourseData = [
   //   author: "assets/images/course/author/03.jpg",
   //   authorName: [
   //     <strong>
-      //   Ph.D.
-      // </strong>,
+  //   Ph.D.
+  // </strong>,
   //     <br />,
   //     "Principal In Charge : P D Patel Institute of Applied Sciences (PDPIAS)",
   //     <br />,
@@ -379,13 +319,9 @@ const CourseData = [
     title: "Dr. Anil Sharma",
     author: "assets/images/course/author/03.jpg",
     authorName: [
-      <strong>
-        Ph.D.
-      </strong>,
+      <strong>Ph.D.</strong>,
       <br />,
-      <strong>
-        Principal :
-      </strong>,
+      <strong>Principal :</strong>,
       " Manikaka Topawala Institute of Nursing (MTIN)",
       <br />,
       <strong>Email:</strong>,
@@ -393,8 +329,7 @@ const CourseData = [
     ],
     id: 25,
   },
- 
-  
+
   // {
   //   imgUrl: "assets/images/People/PRO.png",
   //   imgAlt: "Dilip Gosai",
@@ -414,7 +349,6 @@ const CourseData = [
   //   ],
   //   id: 28,
   // },
-  
 ];
 
 export default function People() {
@@ -431,7 +365,7 @@ export default function People() {
 
     // });
     console.log("items:" + categItem);
-    
+
     setActive(categItem);
     const updateItems = [];
     CourseData.forEach(async (element) => {
@@ -452,7 +386,10 @@ export default function People() {
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="CHARUSAT Governing Body" />
-        <meta name="keywords" content="Charusat governing body, member, afilliation of governing body members" />
+        <meta
+          name="keywords"
+          content="Charusat governing body, member, afilliation of governing body members"
+        />
         <meta name="robots" content="index" />
         <meta name="robots" content="follow" />
         <meta name="googlebot" content="index, follow" />
@@ -460,7 +397,10 @@ export default function People() {
         <meta name="google" content="nopagereadaloud" />
         <meta property="og:type" content="homepage" />
         <meta property="og:title" content="CHARUSAT Governing Body" />
-        <meta property="og:description" content="List of governing body members of CHARUSAT" />
+        <meta
+          property="og:description"
+          content="List of governing body members of CHARUSAT"
+        />
         <meta name="author" content="CHARUSAT Web Team" />
       </Helmet>
       <div className="course-shape one">
@@ -476,21 +416,15 @@ export default function People() {
             <ul className="lab-ul">
               {/* <li onClick={() => setItems(CourseData)}>All</li> */}
 
-             <Link to="/governing-body"> <li
-                
-              >
-                Governing Body
-              </li></Link>
-             <Link to='/board-of-management'> <li
-              >
-                Board of Management
-              </li></Link>
-              <li
-              className="active"
-              >
-                Deans & Principal
-              </li>
-            
+              <Link to="/governing-body">
+                {" "}
+                <li>Governing Body</li>
+              </Link>
+              <Link to="/board-of-management">
+                {" "}
+                <li>Board of Management</li>
+              </Link>
+              <li className="active">Deans & Principal</li>
             </ul>
           </div>
         </div>
