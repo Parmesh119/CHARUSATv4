@@ -815,7 +815,7 @@ const CourseList = [
     Intake: "30",
     Fees: "₹ 1,00,000/-",
     Eligibility:
-      "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
+      "CBSE/ISCE/GSEB, Minimum 45% required in PCM subjects (as per ACPC), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/CL/",
     brochureBtn: "Download Brochure",
@@ -834,7 +834,7 @@ const CourseList = [
     Intake: "CSPIT-120 | DEPSTAR-120",
     Fees: "CSPIT- ₹ 1,48,000/- | DEPSTAR-₹ 1,48,000/-",
     Eligibility:
-      "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
+      "CBSE/ISCE/GSEB, Minimum 45% required in PCM subjects (as per ACPC), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/CE/",
     brochureBtn: "Download Brochure",
@@ -854,9 +854,9 @@ const CourseList = [
       "Chandubhai S. Patel Insitute of Technology(CSPIT) | Devang Patel Institute of Advance Technology and Research (DEPSTAR)",
     CourseDuration: "04 Years",
     Intake: "CSPIT-90 | DEPSTAR-120",
-    Fees: "CSPIT-₹ 1,48,000/- | DEPSTAR-₹ 98,000/-",
+    Fees: "CSPIT-₹ 1,48,000/- | DEPSTAR-₹ 1,48,000/-",
     Eligibility:
-      "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
+      "CBSE/ISCE/GSEB, Minimum 45% required in PCM subjects (as per ACPC), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/CSE/",
     brochureBtn: "Download Brochure",
@@ -878,14 +878,14 @@ const CourseList = [
     Intake: "CSPIT-60",
     Fees: "CSPIT-₹ 1,48,000/",
     Eligibility:
-      "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
+      "CBSE/ISCE/GSEB, Minimum 45% required in PCM subjects (as per ACPC), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/CSE/",
     brochureBtn: "Download Brochure",
     brochureLink:
       "http://charusat.ac.in/Downloads/Brochure/CSPIT/IT/B.TECH_Brochure.pdf",
     websiteBtn: "Visit Website",
-    websiteLink: "/coming-soon",
+    websiteLink: "https://charusat.ac.in/cspit/",
     txtBtn4: "",
     linkbtn4: "",
     showLinkBtn4: false,
@@ -899,7 +899,7 @@ const CourseList = [
     Intake: "30",
     Fees: "₹ 1,00,000/-",
     Eligibility:
-      "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
+      "CBSE/ISCE/GSEB, Minimum 45% required in PCM subjects (as per ACPC), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/EE/",
     brochureBtn: "Download Brochure",
@@ -918,7 +918,7 @@ const CourseList = [
     Intake: "120",
     Fees: "₹ 1,25,000/-",
     Eligibility:
-      "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
+      "CBSE/ISCE/GSEB, Minimum 45% required in PCM subjects (as per ACPC), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/EC/",
     brochureBtn: "Download Brochure",
@@ -937,7 +937,7 @@ const CourseList = [
     Intake: "CSPIT-90 | DEPSTAR-60",
     Fees: "CSPIT-₹ 1,48,000/- | DEPSTAR-₹ 1,48,000/-",
     Eligibility:
-      "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
+      "CBSE/ISCE/GSEB, Minimum 45% required in PCM subjects (as per ACPC), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/IT/",
     brochureBtn: "Download Brochure",
@@ -958,7 +958,7 @@ const CourseList = [
     Intake: "60",
     Fees: "₹ 1,00,000/-",
     Eligibility:
-      "CBSE/ISCE/State board, Minimum 45% required in PCM subjects (as per AICTE), Any student within/outside Gujarat",
+      "CBSE/ISCE/GSEB, Minimum 45% required in PCM subjects (as per ACPC), Any student within/outside Gujarat",
     syllabusBtn: "View Syllabus",
     syllabusLink: "https://charusat.ac.in/Downloads/Syllabus/FTE%20CSPIT/ME",
     brochureBtn: "Download Brochure",
