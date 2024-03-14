@@ -2,7 +2,7 @@ import { Component, Fragment } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
-import career1_img from "../assets/images/advertisment_nov_2022.webp";
+
 import { Helmet } from "react-helmet";
 const Certification_Courses = () => {
   return (
@@ -21,7 +21,10 @@ const Certification_Courses = () => {
         <meta name="google" content="nopagereadaloud" />
         <meta property="og:type" content="homepage" />
         <meta property="og:title" content="CSPIT Homepage" />
-        <meta property="og:description" content="CSPIT - best engineering college to study in Gujarat." />
+        <meta
+          property="og:description"
+          content="CSPIT - best engineering college to study in Gujarat."
+        />
         <meta name="author" content="CHARUSAT Web Team" />
       </Helmet>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
@@ -44,8 +47,9 @@ const Certification_Courses = () => {
                                 <Col md={8}>
                                   <img
                                     className="fluid"
-                                    src="./assets/images/advertisment_nov_2022.webp"
+                                    src="./assets/images/Walk_In_16-03-24.png"
                                     alt={"career"}
+                                    width={700}
                                   />
                                 </Col>
                                 <Col md={4}>
