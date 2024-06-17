@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const subTitle = "Loved by 50,000+ students";
-const title = "Our Mission and Vision";
+const title = "Vision and Mission";
 
 const studentList = [
   {
@@ -22,7 +22,7 @@ const studentList = [
 
 const VisionMission = () => {
   return (
-    <div className="student-feedbak-section padding-tb shape-img">
+    <div className="student-feedbak-section p-4 shape-img vision-main">
       <div className="container">
         <div className="section-header text-center">
           <span className="subtitle">{subTitle}</span>

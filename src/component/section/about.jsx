@@ -100,7 +100,7 @@ const About = () => {
           </div>
           <div className="col">
             <div className="about-left">
-              <div className="about-thumb" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+              <div className="about-thumb" data-aos-anchor-placement="top-bottom">
                 <img src="assets/images/about/04.png" alt="about"/>
               </div>
             </div>
@@ -110,10 +110,9 @@ const About = () => {
       <br />
       <br />
       {/*  */}
-      <div className="student-feedbak-section padding-tb shape-img">
+      <div className="student-feedbak-section padding-tb  glance1">
         <div className="container">
           <div className="section-header text-center">
-            <span className="subtitle">&nbsp;</span>
             <h2 className="title">CHARUSAT At Glance</h2>
           </div>
           <div className="section-wrapper">

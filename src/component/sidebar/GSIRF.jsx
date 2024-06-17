@@ -5,16 +5,16 @@ const title = "Gujarat State Institutional Ranking Framework (GSIRF)";
 
 const commentList = [
     {
+        desc: 'GSIRF 2022-23',
+        link: 'assets/files/Accreditation/updated/GSIRF-2022-23.pdf',
+    },
+    {
         desc: 'GSIRF 2021',
-        link: 'https://charusat.ac.in/iqac/gsirf/GSIRF-2021-Score%20Card.pdf',
+        link: 'assets/files/Accreditation/updated/GSIRF-2021.pdf',
     },
     {
         desc: 'GSIRF 2020',
-        link: 'https://charusat.ac.in/iqac/gsirf/GSIRF%202020%20-%20SCORE%20CARDS%20-%20CHARUSAT.pdf',
-    },
-    {
-        desc: 'GSIRF 2019',
-        link: 'https://charusat.ac.in/iqac/gsirf/GSIRF%202019_SCORE%20CARD%20of%20CHARUSAT.pdf',
+        link: 'assets/files/Accreditation/updated/GSIRF-2020.pdf',
     },
     
 ]
@@ -36,7 +36,7 @@ const GSIRF = () => {
                                 <div className="com-title-meta lab-ul">
                                     {/* <h6>{val.name}</h6>
                                     <span> {val.date} </span> */}
-                                    <a href={val.link} className="csdc-left" ><span>{val.desc}</span></a>
+                                    <a href={val.link} className="csdc-left" target="_blank" ><span>{val.desc}</span></a>
                                 </div>
                                 
                             </div>

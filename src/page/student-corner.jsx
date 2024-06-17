@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import {HashRouter, Link } from "react-router-dom";
+import { HashRouter, Link } from "react-router-dom";
 import Contact from "../component/section/contact";
 import Image from "react-bootstrap/Image";
 
@@ -66,7 +66,8 @@ const StudentCorner = () => {
                                       target="_blank"
                                     >
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
-                                        Transcript / Duplicate Grade Card / Migration Certificate
+                                        Transcript / Duplicate Grade Card /
+                                        Migration Certificate
                                       </span>
                                       <i className="icofont-long-arrow-right"></i>
                                     </a>
@@ -137,7 +138,7 @@ const StudentCorner = () => {
                                       <span className="gdlr-core-course-item-title gdlr-core-skin-title">
                                         Exam Result{" "}
                                       </span>
-                                      <i className="icofont-long-arrow-right"></i>
+                                      <i className="icofont-long-arrow-right boldArr"></i>
                                     </a>
                                   </div>
                                   <hr />
@@ -178,6 +179,46 @@ const StudentCorner = () => {
                                         Pay Fees
                                       </span>
                                       <i className="icofont-long-arrow-right"></i>
+                                    </a>
+                                  </div>
+                                  <hr />
+                                  <div className="gdlr-core-course-item-list">
+                                    <a
+                                      className="gdlr-core-course-item-link"
+                                      target="_blank"
+                                    >
+                                      <span className="gdlr-core-course-item-title gdlr-core-skin-title">
+                                        Digilocker Academic Awards
+                                      </span>
+
+                                    
+                                      <br /><br />
+                                      <ul style={{display:"block"}}>
+                                        <li>
+                                          {" "}
+                                          <Link to="https://nad.digilocker.gov.in/students" style={{color:"#555555"}}>
+                                            Information
+                                            <i className="icofont-long-arrow-right" style={{color:"#555555"}}></i>
+                                          </Link>
+                                          
+                                        </li>
+                                        <li>
+                                          {" "}
+                                          <Link to="https://accounts.digilocker.gov.in/signup/smart_v2/6f5c0b16f16d54d833267d503fc78596--en"  style={{color:"#555555"}}>
+                                            Create Digilocker Account
+                                            <i className="icofont-long-arrow-right" style={{color:"#555555"}}></i>
+                                          </Link>
+                                         
+                                        </li>
+                                        <li>
+                                          {" "}
+                                          <Link to="https://img1.digitallocker.gov.in/nad/assets/user_manual/dl_fetch_document.pdf"  style={{color:"#555555"}}>
+                                            Fetch Document
+                                            <i className="icofont-long-arrow-right" style={{color:"#555555"}}></i>
+                                          </Link>
+                                          
+                                        </li>
+                                      </ul>
                                     </a>
                                   </div>
                                   <hr />

@@ -15,6 +15,7 @@ import Convocation_09_Guest from "../assets/images/convocations/convocation9_1.j
 import Convocation_10_Guest from "../assets/images/convocations/convocation_10.jpg";
 import Convocation_11_Guest from "../assets/images/convocations/Dr_Bimal_Patel.webp";
 import Convocation_12_Guest from "../assets/images/convocations/Ashok-Patel.jpg";
+import Convocation_13_Guest from "../assets/images/convocations/dharmendra_pradhan.jpeg";
 import { Helmet } from "react-helmet";
 
 const Convocations = () => {
@@ -91,12 +92,34 @@ const Convocations = () => {
                                 <Col>
                                   <hr />
                                   <h6 className="  p-1">
+                                    13<sup>th</sup> Convocation – Shri. Dharmendra Pradhan
+                                  </h6>
+                                </Col>
+                              </Row>
+                              <Row className="p-2">
+                                <Col md={2}>
+                                <br />
+                                  <Image
+                                    src={Convocation_13_Guest}
+                                    alt={"Shri Dharmendra Pradhan"}
+                                    thumbnail
+                                  />
+                                </Col>
+                                <Col md={10}>
+                                  <p>
+                                  The 13th Convocation of CHARUSAT took place on January 6, 2024. A total of 2650 students from various disciplines were conferred with degrees, marking a significant milestone in their academic journey. Among the graduates, there were 30 accomplished individuals who successfully earned their PhDs, showcasing their dedication to advanced research and scholarship. Adding to the significance of the event, the convocation was graced by a special guest, Dharmendra Pradhan, the Cabinet Minister for Education and Skill Development and Entrepreneurship in the Government of India. His presence added a unique perspective to the ceremony, highlighting the government's commitment to education, skill development, and entrepreneurship.
+                                  </p>
+                                </Col>
+                              </Row>
+                              <Row className="p-2">
+                                <Col>
+                                  <hr />
+                                  <h6 className="  p-1">
                                     12<sup>th</sup> Convocation – Shri. Ashok Patel
                                   </h6>
                                 </Col>
                               </Row>
-
-                              <Row className="p-2">
+                                <Row className="p-2">
                                 <Col md={2}>
                                   <Image
                                     src={Convocation_12_Guest}

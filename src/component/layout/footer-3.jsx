@@ -9,12 +9,15 @@ const quickTitle = "Quick Links";
 const googleMapTitle = "Map";
 // const tweetTitle = "Recent Tweets";
 const year = new Date().getFullYear();
-
-const addressList = [
+const addressList1=
   {
     iconName: "icofont-google-map",
-    text: "CHARUSAT Campus, Off. Nadiad-Petlad Highway, Changa 388 421",
-  },
+    text1: "CHARUSAT Campus",
+    text2: "Off. Nadiad-Petlad Highway, Changa 388 421",
+  }
+
+const addressList = [
+  
   {
     iconName: "icofont-phone",
     text: "+91 2697 265011/12",
@@ -135,6 +138,14 @@ const footerbottomList = [
 ];
 
 const FooterThree = () => {
+  const scrollToTop = () =>{ 
+    window.scrollTo({ 
+      top: 0,  
+      behavior: 'smooth'
+      /* you can also use 'auto' behaviour 
+         in place of 'smooth' */
+    }); 
+  }; 
   return (
     <>
       <div className="news-footer-wrap grdnt-bg-custom">
@@ -165,6 +176,14 @@ const FooterThree = () => {
                         <div className="content">
                           {/* <p>{desc}</p> */}
                           <ul className="lab-ul office-address ">
+                          <li style={{ color: "#fff" }}>
+                                <i
+                                  className={addressList1.iconName}
+                                  style={{ color: "#fff" }}
+                                ></i>
+                                {addressList1.text1} <br />
+                                {addressList1.text2}
+                              </li>
                             {addressList.map((val, i) => (
                               <li key={i} style={{ color: "#fff" }}>
                                 <i
@@ -254,11 +273,21 @@ const FooterThree = () => {
                           <h4 style={{ color: "#fff" }}>{googleMapTitle}</h4>
                         </div>
                         <div
-                          className="content"
+
+
+                          className="content "                  
+
+
+                    
+
                           style={{ width: "80px !important;" }}
                         >
                           {/* <ul className="lab-ul"> */}
-                          <GoogleMap />
+                          {/* <GoogleMap /> */}
+                          <a href="https://www.google.com/maps?ll=22.599358,72.820467&z=15&t=m&hl=en-US&gl=US&mapclient=embed&cid=362346160943384765" target="_blank">
+                          <img src="assets\images\map\map.png" alt="" />
+                          </a>
+                          
                           <br />
                           <br />
                           {/* </ul> */}
@@ -276,6 +305,7 @@ const FooterThree = () => {
                 <p>
                   &copy; {year} <Link to="/">C H A R U S A T</Link>{" "}
                 </p>
+                
                 {/* <div className="footer-bottom-list">
                   {footerbottomList.map((val, i) => (
                     <a href={val.link} key={i} target="_blank" rel="noreferrer">

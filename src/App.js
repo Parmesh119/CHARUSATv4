@@ -55,7 +55,9 @@ import About_us from "./page/About_us";
 import AboutUs from "./page/About_us";
 import ProvostDesk from "./page/Provost-desk";
 import PresidentDesk from "./page/President-desk";
-import People from "./page/People";
+import Governingbody from "./page/Governing-body";
+import BOM from "./page/BOM.jsx";
+import Deans from "./page/Deans-Principal";
 // import Footer from "./component/layout/footer-3";
 import CDPC from "./page/cdpc";
 import Ethics from "./page/ethics";
@@ -71,6 +73,9 @@ import ComingSoon from "./page/ComingSoon";
 import Edic from "./page/edic";
 import StudentCorner from "./page/student-corner";
 import PhDPrograms from "./page/ph-d-programs";
+import SamajGosthi from "./page/samajGosthi";
+import SamajScholarship from "./page/samaj_scholarships";
+import Officers from "./page/officers";
 import AnnualReport from "./page/annual-report";
 
 import { Helmet } from "react-helmet";
@@ -136,13 +141,16 @@ function App() {
         <Route path="/cdpc" element={<CDPC />} /> //Helmet done
         <Route path="/ethics" element={<Ethics />} />
         <Route path="/research" element={<ResearchPage />} />
+        <Route path="/university-officers" element={<Officers />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/student-development-initiatives" element={<SDI />} />{" "}
         //Helmet done
         <Route path="/provost-desk" element={<ProvostDesk />} /> //Helmet done
         <Route path="/president-desk" element={<PresidentDesk />} /> //Helmet
         done
-        <Route path="/associates" element={<People />} />
+        <Route path="/governing-body" element={<Governingbody />} />
+        <Route path="/board-of-management" element={<BOM />} />
+        <Route path="/deans&principal" element={<Deans />} />
         //Helmet done
         <Route
           path="/accreditation-and-ranking"
@@ -161,6 +169,8 @@ function App() {
         <Route path="/student-corner" element={<StudentCorner />} />
         <Route path="/crtc" element={<CSRTC />} />
         <Route exact path="/ph-d-programs" element={<PhDPrograms />} />
+        <Route exact path="/samaj-gosthi" element={<SamajGosthi />} />
+        <Route exact path="/samaj-scholarship" element={<SamajScholarship />} />
         <Route path="/annual-report" element={<AnnualReport />} />
         <Route path="university-industry-interaction-cell" element={<UIIC />} />
         <Route path="/anti-ragging" element={<AntiRagging />} />
@@ -171,8 +181,8 @@ function App() {
         <Route path="/dvv_clarifications" element={<DvvClarifications />} />
         {/*  */}
         <Route path="/coming-soon" element={<ComingSoon />} />
-        <Route path="/error" element={<ErrorPage />} />
-        <Route path="*" element={<Home />} />
+        
+        {/* <Route path="*" element={<Home />} /> */}
         <Route path="/ecc" element={<ECC />} />
         <Route path="/eoc" element={<EOC />} />
         <Route path="/wdc" element={<WDC />} />
@@ -182,6 +192,8 @@ function App() {
         {/* http://preview.themeforest.net/item/edukon-education-and-lms-react-js-template/full_screen_preview/38286924?_ga=2.76967702.264634929.1671012406-1346785869.1667801964 */}
         {/* <Route path="/announcements" element={<Announcements />} /> */}
         {/* <Route path="/accreditation" element={<Accreditation />} /> */}
+        <Route path="/error" element={<ErrorPage />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

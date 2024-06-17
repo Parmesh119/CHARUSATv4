@@ -2,7 +2,7 @@ import { Component, useState } from "react";
 import { Link } from "react-router-dom";
 import Rating from "../sidebar/rating";
 
-const title = "Institutions";
+const title = "Faculties";
 
 const CourseData = [
   {
@@ -21,7 +21,7 @@ const CourseData = [
     imgUrl: "assets/images/institute/DEPSTAR.jpg",
     imgAlt: "Depstar image",
     cate: "Engineering",
-    programs: "B. Tech, M. Tech, Ph. D.",
+    programs: "B. Tech,Ph. D.",
     title: "Devang Patel Institute of Advance Technology and Research",
     link: "https://www.charusat.ac.in/depstar/",
     author: "assets/images/course/author/01.jpg",
@@ -131,14 +131,14 @@ export default function Faculties() {
   };
 
   return (
-    <div className="course-section style-3 padding-tb">
+    <div className="course-section style-3 padding-b">
       <div className="course-shape one">
         <img src="assets/images/shape-img/icon/01.png" alt="education" />
       </div>
       <div className="course-shape two">
         <img src="assets/images/shape-img/icon/02.png" alt="education" />
       </div>
-      <div className="container">
+      <div className="container py-4">
         <h2 className="title text-center">{title}</h2>
         <div className="section-header">
           <div className="course-filter-group">

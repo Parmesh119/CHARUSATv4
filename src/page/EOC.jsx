@@ -4,8 +4,8 @@ import { color } from "@mui/system";
 import "../assets/css/EOC.css";
 
 const EOC = () => {
-    return (
-        <Fragment>
+  return (
+    <Fragment>
       {/* <PageHeader title={'4 Results found for: Business'} curPage={'Search Result'} /> */}
       <div className="blog-section padding-tb section-bg">
         <div className="container">
@@ -21,19 +21,116 @@ const EOC = () => {
                             <h3>Equal Opportunity Cell (EOC)</h3>
                             <hr />
                             <br />
-                            <div className="meta-post" >
-                              
-                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/02.EQUAL-OPPORTUNITY-CELL.pdf"> Equal Opportunity Cell Policy <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
-                                <br />
-                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/EOC_Circular-2016.pdf"> Equal Opportunity Cell Circular <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
-                                <br />
-                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/Reconstitution-of-EOC-CHARUSAT.pdf"> Constitution of EOC at Charusat <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
-                                <br />
-                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/Contact%20Details%20of%20EOC%20members.pdf"> Contact Details for any grievance related to Equal Opportunity matter <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
-                                <br />
-                                <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/eoc/List-of-Activities-under-EOC-Conducted-and-Planned.pdf"> List of Activities under EOC -Conducted /Planned <i class="icofont-file-pdf" style={{ fontSize: "22px" }}></i></a>
-                             
+
+                            <div style={{ overflowX: "auto" }}>
+                              <table className="table">
+                                <thead>
+                                  <tr>
+                                    <th>Month</th>
+                                    <th>PDF Link</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Equal Opportunity Cell Policy</td>
+                                    <td>
+                                      <a
+                                        className="pdfLink"
+                                        target="_blank"
+                                        href="https://charusat.ac.in/documents/pdfs/eoc/02.EQUAL-OPPORTUNITY-CELL.pdf"
+                                      >
+                                        <i
+                                          className="icofont-file-pdf"
+                                          style={{
+                                            fontSize: "22px",
+                                            color: "red",
+                                          }}
+                                        ></i>
+                                      </a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Equal Opportunity Cell Circular</td>
+                                    <td>
+                                      <a
+                                        className="pdfLink"
+                                        target="_blank"
+                                        href="https://charusat.ac.in/documents/pdfs/eoc/EOC_Circular-2016.pdf"
+                                      >
+                                        <i
+                                          className="icofont-file-pdf"
+                                          style={{
+                                            fontSize: "22px",
+                                            color: "red",
+                                          }}
+                                        ></i>
+                                      </a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Constitution of EOC at Charusat</td>
+                                    <td>
+                                      <a
+                                        className="pdfLink"
+                                        target="_blank"
+                                        href="https://charusat.ac.in/documents/pdfs/eoc/Reconstitution-of-EOC-CHARUSAT.pdf"
+                                      >
+                                        <i
+                                          className="icofont-file-pdf"
+                                          style={{
+                                            fontSize: "22px",
+                                            color: "red",
+                                          }}
+                                        ></i>
+                                      </a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      Contact Details for any grievance related
+                                      to Equal Opportunity matter
+                                    </td>
+                                    <td>
+                                      <a
+                                        className="pdfLink"
+                                        target="_blank"
+                                        href="https://charusat.ac.in/documents/pdfs/eoc/Contact%20Details%20of%20EOC%20members.pdf"
+                                      >
+                                        <i
+                                          className="icofont-file-pdf"
+                                          style={{
+                                            fontSize: "22px",
+                                            color: "red",
+                                          }}
+                                        ></i>
+                                      </a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      List of Activities under EOC -
+                                      Conducted/Planned
+                                    </td>
+                                    <td>
+                                      <a
+                                        className="pdfLink"
+                                        target="_blank"
+                                        href="https://charusat.ac.in/documents/pdfs/eoc/List-of-Activities-under-EOC-Conducted-and-Planned.pdf"
+                                      >
+                                        <i
+                                          className="icofont-file-pdf"
+                                          style={{
+                                            fontSize: "22px",
+                                            color: "red",
+                                          }}
+                                        ></i>
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
                             </div>
+
                             {/* <Link to="/blog-single" className="lab-btn"><span>Operator's Detail <i className="icofont-external-link"></i></span></Link> */}
                           </div>
                         </div>
@@ -44,15 +141,15 @@ const EOC = () => {
               </article>
             </div>
             <Contact
-      name="Contact Person: Dr. Vijay Panchal"
-      email="vijaypanchal.cv@charusat.ac.in"
-      phone=" 5081"
-      />
+              name="Contact Person: Dr. Vijay Panchal"
+              email="vijaypanchal.cv@charusat.ac.in"
+              phone=" 5081"
+            />
           </div>
         </div>
       </div>
     </Fragment>
-    );
-}
+  );
+};
 
 export default EOC;

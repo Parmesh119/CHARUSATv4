@@ -64,12 +64,12 @@ const Library = () => {
                                   <p className="text-center">
                                     <h6>For SOUL WEBOPAC by INFLIBNET</h6>
 
-                                    <a
+                                    {/* <a
                                       class="lab-btn"
                                       href="http://172.16.11.69/WebOPAC/"
                                     >
                                       <span>Click Here</span>
-                                    </a>
+                                    </a> */}
 
                                     <br />
                                   </p>

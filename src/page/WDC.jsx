@@ -29,53 +29,51 @@ const WDC = () => {
                                 Development Cell (WDC) in the year 2016.
                                 <br />
                                 <br />
-                                <a
-                                  className="pdfLink"
-                                  href="https://charusat.ac.in/documents/pdfs/wdc/01.Womens-Development-Cell-Policy-1.pdf"
-                                >
-                                  {" "}
-                                  WOMEN DEVELOPMENT CELL Policy
-                                  <i
-                                    class="icofont-file-pdf"
-                                    style={{ fontSize: "22px" }}
-                                  ></i>{" "}
-                                </a>
-                                <br />
-                                <a
-                                  className="pdfLink"
-                                  href="https://charusat.ac.in/files/wdc/WOMEN%20DEVELOPMENT%20CELL%20Structure_2021-2024.pdf"
-                                >
-                                  {" "}
-                                  WOMEN DEVELOPMENT CELL Structure
-                                  <i
-                                    class="icofont-file-pdf"
-                                    style={{ fontSize: "22px" }}
-                                  ></i>{" "}
-                                </a>
-                                <br />
-                                <a
-                                  className="pdfLink"
-                                  href="https://charusat.ac.in/files/wdc/Women%20Development%20Cell%20Ciruclar.pdf"
-                                >
-                                  {" "}
-                                  Woman's Development Cell Circular
-                                  <i
-                                    class="icofont-file-pdf"
-                                    style={{ fontSize: "22px" }}
-                                  ></i>{" "}
-                                </a>
-                                <br />
-                                <a
-                                  className="pdfLink"
-                                  href="https://charusat.ac.in/files/wdc/WOMEN%20DEVELOPMENT%20CELL%20Structure_2021-2024.pdf"
-                                >
-                                  {" "}
-                                  WDC Structure 2021-2024
-                                  <i
-                                    class="icofont-file-pdf"
-                                    style={{ fontSize: "22px" }}
-                                  ></i>{" "}
-                                </a>
+
+    <table className="table">
+      <thead>
+        <tr>
+          <th>Document</th>
+          <th>PDF Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>WOMEN DEVELOPMENT CELL Policy</td>
+          <td>
+            <a className="pdfLink" href="https://charusat.ac.in/documents/pdfs/wdc/01.Womens-Development-Cell-Policy-1.pdf">
+              <i className="icofont-file-pdf" style={{ fontSize: '22px',color:"red"  }}></i>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>WOMEN DEVELOPMENT CELL Structure</td>
+          <td>
+            <a className="pdfLink" href="https://charusat.ac.in/files/wdc/WOMEN%20DEVELOPMENT%20CELL%20Structure_2021-2024.pdf">
+              <i className="icofont-file-pdf" style={{ fontSize: '22px',color:"red" }}></i>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>Woman's Development Cell Circular</td>
+          <td>
+            <a className="pdfLink" href="https://charusat.ac.in/files/wdc/Women%20Development%20Cell%20Ciruclar.pdf">
+              <i className="icofont-file-pdf" style={{ fontSize: '22px',color:"red"  }}></i>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>WDC Structure 2021-2024</td>
+          <td>
+            <a className="pdfLink" href="https://charusat.ac.in/files/wdc/WOMEN%20DEVELOPMENT%20CELL%20Structure_2021-2024.pdf">
+              <i className="icofont-file-pdf" style={{ fontSize: '22px',color:"red"  }}></i>
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
                                 <br />
                               </p>
                             </div>
